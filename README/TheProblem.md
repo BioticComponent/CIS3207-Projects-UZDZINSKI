@@ -11,7 +11,7 @@ Many of the decisions in the simulation are decided randomly, such as time spent
 There will be four queues needed for the simulation. A main priority queue will be used to keep track of the events. These events will be prioritized according to their logical clock time. 
 
 > ### An aside: Clock Time
-This simulation uses a "logical clock". This means time will be referred to as units and not an actual time (milliseconds). For example, an arbitrary event can start at time 15 and spend 7 units of time doing a particular task.
+> This simulation uses a "logical clock". This means time will be referred to as units and not an actual time (milliseconds). For example, an arbitrary event can start at time 15 and spend 7 units of time doing a particular task.
 
 The other three queues are for the CPU and the two disks. These are FIFO queues, meaning the first event to enter the queue is the first one to be serviced by the queue's respective device. 
 
