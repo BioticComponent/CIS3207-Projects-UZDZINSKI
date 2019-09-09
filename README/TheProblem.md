@@ -17,7 +17,7 @@ The other three queues are for the CPU and the two disks. These are FIFO queues,
 
 ## The Mechanism 
 - The simulation will have a start and finish time 
-- Each iteration of the simulation loop, the unit of time will go up by one
+- Each iteration of the simulation loop, the unit of time will be set to the time of the next event in the event queue
 - An initial event will be created and sent to the CPU
 - When this and subsequent events are done at the CPU: 
     - The event will either exit the system or go to a disk for servicing based on a preset probability
