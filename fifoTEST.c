@@ -72,8 +72,10 @@ int main() {
             case 2: {
                 EVENT* deqEvent = deq(&startPtr);
                 printq(&startPtr);
-                printf("%d ", deqEvent -> time);
-                printf("%d\n", deqEvent -> type);
+                if (queueLength(&startPtr) > 0) {
+                    printf("%d ", deqEvent -> time);
+                    printf("%d\n", deqEvent -> type);
+                }
                 break;
             }
             //user ends program
