@@ -1,7 +1,8 @@
 //Joe Uzdzinski
-//This file contains function definitions for use in the queues
+//queue source file
 
 #include "queue.h"
+#include "event.h"
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -107,7 +108,9 @@ void printq (NODE* *startPtr) {
     int counter = 0;
     while (currentPtr != NULL) {
         if (counter > 0) {
-            printf("type: %d time: %d --> ", currentPtr -> eventPtr -> type, currentPtr -> eventPtr -> time);
+            printf("job %d ", currentPtr -> eventPtr-> jobNo);
+            printEventType(currentPtr -> eventPtr -> type);
+            printf(" %d --> \n", currentPtr -> eventPtr -> time);
         }
         counter++;
         currentPtr = currentPtr -> nextPtr;
@@ -135,16 +138,6 @@ int queueLength (NODE* *startPtr) {
     }
 
     return length - 1;   
-}
-
-//CREATES A NEW EVENT
-//takes an int type and time for a new event struct
-//returns a pointer to the event
-EVENT* createEvent (int _type, int _time) {
-    EVENT* tempPtr = (EVENT*)malloc(sizeof(EVENT));
-    tempPtr -> type = _type;
-    tempPtr -> time = _time;
-    return tempPtr;
 }
 
 ////////////////////////////////////

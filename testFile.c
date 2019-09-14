@@ -2,11 +2,20 @@
 ///FOR TESTING AND DEBUGGING///
 ///////////////////////////////
 
+#include "rng.h"
 #include "queue.h"
+#include "event.h"
 #include <stdio.h> 
 #include <stdlib.h>
 
 int main() {
+    srand(0);
+    int count = 0;
+    while (count < 100) {
+        printf("%d\n", rng(50, 60));
+    }
+    return 0;
+
     //allocating memory for startPtr
     //startPtr is the first Ptr of the queue
     NODE* startPtr = malloc(sizeof(NODE));

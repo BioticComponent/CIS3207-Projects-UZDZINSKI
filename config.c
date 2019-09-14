@@ -15,19 +15,19 @@ void configConstants() {
         perror("error opening file");
         return;
     }
-
-    char* line;
-    char* token;
-
+    
+    char* line = (char*) malloc(64*sizeof(char));
+    char* token = (char*) malloc(64*sizeof(char));
     int num = 0;
     int i = 0;
-
+    
     while (fgets(line, 64, fp) != NULL) {
         token = strchr(line, ' ');
         num = atoi(token);
         config[i] = num;
         i++;
     }
+
 
     SEED = config[0];
     INIT_TIME = config[1];
