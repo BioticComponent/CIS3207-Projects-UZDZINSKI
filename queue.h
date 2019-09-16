@@ -15,7 +15,6 @@ typedef enum q_type {FIFO, PRIORITY} Q_TYPE;
 void enq (NODE* *startPtr, EVENT* eventPtr, Q_TYPE Q);
 EVENT* deq (NODE* *startPtr);
 void printq (NODE* *startPtr);
-int menu (void);
 int queueLength (NODE* *startPtr);
 
 #endif

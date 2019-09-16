@@ -1,0 +1,24 @@
+Simulation Stats: 
+
+jobs that have exited system:	0
+
+max event queue length:			3
+max cpu queue length:			6
+max d1 queue length:			0
+max d2 queue length:			0
+average event queue length:		2.63
+average cpu queue length:		2.24
+average d1 queue length:		0.00
+average d2 queue length:		0.00
+CPU utilization:				0.89
+disk1 utilization:				0.34
+disk2 utilization:				0.25
+CPU jobs per unit of time:		0.06
+disk1 jobs per unit of time:	0.03
+disk2 jobs per unit of time:	0.02
+max cpu response time:			35
+max disk1 response time:		0
+max disk2 response time:		0
+average cpu response time:		12.50
+average disk1 response time:	0.00
+average disk2 response time:	0.00

@@ -1,0 +1,55 @@
+Simulation Configuration: 
+
+SEED 2
+INIT_TIME 0
+FIN_TIME 100
+ARRIVE_MIN 10
+ARRIVE_MAX 20
+QUIT_PROB 2
+CPU_MIN 10
+CPU_MAX 20
+DISK1_MIN 10
+DISK1_MAX 20
+DISK2_MIN 10
+DISK2_MAX 20
+
+Simulation Log: 
+
+At time 0, process 1 arrives at the CPU queue
+At time 0, process 1 begins at the CPU
+At time 12, process 1 finishes at the CPU
+At time 12, process 1 arrives at the disk2 queue
+At time 12, process 1 begins at disk2
+At time 19, process 2 arrives at the CPU queue
+At time 19, process 2 begins at the CPU
+At time 26, process 1 finishes at disk2
+At time 33, process 2 finishes at the CPU
+At time 33, process 2 arrives at the disk2 queue
+At time 33, process 1 begins at the CPU
+At time 33, process 2 begins at disk2
+At time 35, process 3 arrives at the CPU queue
+At time 44, process 2 finishes at disk2
+At time 45, process 4 arrives at the CPU queue
+At time 50, process 1 finishes at the CPU
+At time 50, process 1 arrives at the disk1 queue
+At time 50, process 3 begins at the CPU
+At time 50, process 1 begins at disk1
+At time 61, process 1 finishes at disk1
+At time 62, process 3 finishes at the CPU
+At time 62, process 3 arrives at the disk1 queue
+At time 62, process 2 begins at the CPU
+At time 62, process 3 begins at disk1
+At time 63, process 5 arrives at the CPU queue
+At time 73, process 3 finishes at disk1
+At time 75, process 6 arrives at the CPU queue
+At time 80, process 2 finishes at the CPU
+At time 80, process 2 arrives at the disk1 queue
+At time 80, process 4 begins at the CPU
+At time 80, process 2 begins at disk1
+At time 86, process 7 arrives at the CPU queue
+At time 92, process 2 finishes at disk1
+At time 96, process 4 finishes at the CPU
+At time 96, process 4 arrives at the disk1 queue
+At time 96, process 1 begins at the CPU
+At time 96, process 4 begins at disk1
+At time 100, process -1 terminates the simulation

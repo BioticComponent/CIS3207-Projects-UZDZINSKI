@@ -9,6 +9,9 @@ typedef struct _EVENT {
     eventType type;
     int jobNo;
     int time; 
+    int cpuQresponse;
+    int disk1Qresponse;
+    int disk2Qresponse;
 } EVENT;
 
 //a NODE struct that holds a pointer to an EVENT stuct and a pointer that points to the next NODE

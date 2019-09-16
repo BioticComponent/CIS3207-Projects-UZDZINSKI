@@ -139,17 +139,3 @@ int queueLength (NODE* *startPtr) {
 
     return length - 1;   
 }
-
-////////////////////////////////////
-///MENU FOR TESTING AND DEBUGGING///
-////////////////////////////////////
-int menu(void) {
-    printf("1. enq\n");
-    printf("2. dq\n");
-    printf("3. quit\n");
-    printf("4. length\n");
-    int choice;
-    printf("Enter choice: ");
-    scanf("%d", &choice);
-    return choice;
-}
