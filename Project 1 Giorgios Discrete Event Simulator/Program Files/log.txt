@@ -1,0 +1,3220 @@
+Simulation Configuration: 
+
+SEED 1
+INIT_TIME 0
+FIN_TIME 20000
+ARRIVE_MIN 10
+ARRIVE_MAX 30
+QUIT_PROB 2
+CPU_MIN 20
+CPU_MAX 50
+DISK1_MIN 100
+DISK1_MAX 150
+DISK2_MIN 200
+DISK2_MAX 300
+
+Simulation Log: 
+
+At time 0, process 1 arrives at the CPU queue
+At time 0, process 1 begins at the CPU
+At time 17, process 2 arrives at the CPU queue
+At time 29, process 3 arrives at the CPU queue
+At time 45, process 1 finishes at the CPU
+At time 45, process 1 exits the system
+At time 45, process 2 begins at the CPU
+At time 59, process 4 arrives at the CPU queue
+At time 78, process 5 arrives at the CPU queue
+At time 82, process 2 finishes at the CPU
+At time 82, process 2 arrives at the disk2 queue
+At time 82, process 3 begins at the CPU
+At time 82, process 2 begins at disk2
+At time 96, process 6 arrives at the CPU queue
+At time 106, process 7 arrives at the CPU queue
+At time 128, process 3 finishes at the CPU
+At time 128, process 3 arrives at the disk1 queue
+At time 128, process 4 begins at the CPU
+At time 128, process 3 begins at disk1
+At time 136, process 8 arrives at the CPU queue
+At time 150, process 9 arrives at the CPU queue
+At time 157, process 4 finishes at the CPU
+At time 157, process 4 arrives at the disk2 queue
+At time 157, process 5 begins at the CPU
+At time 170, process 10 arrives at the CPU queue
+At time 185, process 5 finishes at the CPU
+At time 185, process 5 exits the system
+At time 185, process 6 begins at the CPU
+At time 194, process 11 arrives at the CPU queue
+At time 210, process 6 finishes at the CPU
+At time 210, process 12 arrives at the CPU queue
+At time 210, process 6 arrives at the disk1 queue
+At time 210, process 7 begins at the CPU
+At time 236, process 13 arrives at the CPU queue
+At time 236, process 7 finishes at the CPU
+At time 236, process 7 arrives at the disk2 queue
+At time 236, process 8 begins at the CPU
+At time 256, process 3 finishes at disk1
+At time 256, process 6 begins at disk1
+At time 263, process 14 arrives at the CPU queue
+At time 276, process 8 finishes at the CPU
+At time 276, process 8 arrives at the disk1 queue
+At time 276, process 9 begins at the CPU
+At time 280, process 15 arrives at the CPU queue
+At time 298, process 9 finishes at the CPU
+At time 298, process 9 arrives at the disk1 queue
+At time 298, process 10 begins at the CPU
+At time 303, process 16 arrives at the CPU queue
+At time 305, process 2 finishes at disk2
+At time 305, process 4 begins at disk2
+At time 315, process 17 arrives at the CPU queue
+At time 334, process 10 finishes at the CPU
+At time 334, process 10 exits the system
+At time 334, process 11 begins at the CPU
+At time 336, process 18 arrives at the CPU queue
+At time 359, process 6 finishes at disk1
+At time 359, process 11 finishes at the CPU
+At time 359, process 8 begins at disk1
+At time 359, process 11 exits the system
+At time 359, process 12 begins at the CPU
+At time 362, process 19 arrives at the CPU queue
+At time 373, process 20 arrives at the CPU queue
+At time 390, process 21 arrives at the CPU queue
+At time 401, process 12 finishes at the CPU
+At time 401, process 12 arrives at the disk2 queue
+At time 401, process 13 begins at the CPU
+At time 417, process 22 arrives at the CPU queue
+At time 433, process 13 finishes at the CPU
+At time 433, process 13 arrives at the disk1 queue
+At time 433, process 3 begins at the CPU
+At time 434, process 23 arrives at the CPU queue
+At time 455, process 3 finishes at the CPU
+At time 455, process 3 exits the system
+At time 455, process 14 begins at the CPU
+At time 461, process 8 finishes at disk1
+At time 461, process 24 arrives at the CPU queue
+At time 461, process 9 begins at disk1
+At time 471, process 25 arrives at the CPU queue
+At time 490, process 26 arrives at the CPU queue
+At time 503, process 14 finishes at the CPU
+At time 503, process 14 arrives at the disk1 queue
+At time 503, process 15 begins at the CPU
+At time 510, process 27 arrives at the CPU queue
+At time 526, process 15 finishes at the CPU
+At time 526, process 15 arrives at the disk1 queue
+At time 526, process 16 begins at the CPU
+At time 533, process 28 arrives at the CPU queue
+At time 548, process 16 finishes at the CPU
+At time 548, process 16 arrives at the disk2 queue
+At time 548, process 2 begins at the CPU
+At time 555, process 29 arrives at the CPU queue
+At time 574, process 2 finishes at the CPU
+At time 574, process 2 arrives at the disk1 queue
+At time 574, process 17 begins at the CPU
+At time 575, process 30 arrives at the CPU queue
+At time 582, process 9 finishes at disk1
+At time 582, process 13 begins at disk1
+At time 588, process 4 finishes at disk2
+At time 588, process 7 begins at disk2
+At time 602, process 31 arrives at the CPU queue
+At time 615, process 32 arrives at the CPU queue
+At time 620, process 17 finishes at the CPU
+At time 620, process 17 arrives at the disk2 queue
+At time 620, process 18 begins at the CPU
+At time 628, process 33 arrives at the CPU queue
+At time 642, process 18 finishes at the CPU
+At time 642, process 18 arrives at the disk2 queue
+At time 642, process 6 begins at the CPU
+At time 654, process 34 arrives at the CPU queue
+At time 676, process 35 arrives at the CPU queue
+At time 683, process 6 finishes at the CPU
+At time 683, process 6 arrives at the disk1 queue
+At time 683, process 19 begins at the CPU
+At time 697, process 13 finishes at disk1
+At time 697, process 36 arrives at the CPU queue
+At time 697, process 14 begins at disk1
+At time 718, process 37 arrives at the CPU queue
+At time 719, process 19 finishes at the CPU
+At time 719, process 19 arrives at the disk1 queue
+At time 719, process 20 begins at the CPU
+At time 748, process 38 arrives at the CPU queue
+At time 762, process 20 finishes at the CPU
+At time 762, process 20 arrives at the disk2 queue
+At time 762, process 21 begins at the CPU
+At time 770, process 39 arrives at the CPU queue
+At time 788, process 21 finishes at the CPU
+At time 788, process 21 arrives at the disk1 queue
+At time 788, process 22 begins at the CPU
+At time 797, process 40 arrives at the CPU queue
+At time 823, process 41 arrives at the CPU queue
+At time 827, process 7 finishes at disk2
+At time 827, process 12 begins at disk2
+At time 836, process 22 finishes at the CPU
+At time 836, process 22 arrives at the disk2 queue
+At time 836, process 23 begins at the CPU
+At time 838, process 14 finishes at disk1
+At time 838, process 15 begins at disk1
+At time 843, process 42 arrives at the CPU queue
+At time 866, process 43 arrives at the CPU queue
+At time 876, process 23 finishes at the CPU
+At time 876, process 23 arrives at the disk1 queue
+At time 876, process 8 begins at the CPU
+At time 892, process 44 arrives at the CPU queue
+At time 909, process 45 arrives at the CPU queue
+At time 926, process 8 finishes at the CPU
+At time 926, process 8 arrives at the disk2 queue
+At time 926, process 24 begins at the CPU
+At time 931, process 46 arrives at the CPU queue
+At time 942, process 47 arrives at the CPU queue
+At time 953, process 48 arrives at the CPU queue
+At time 968, process 24 finishes at the CPU
+At time 968, process 24 arrives at the disk1 queue
+At time 968, process 25 begins at the CPU
+At time 975, process 49 arrives at the CPU queue
+At time 977, process 15 finishes at disk1
+At time 977, process 2 begins at disk1
+At time 987, process 50 arrives at the CPU queue
+At time 989, process 25 finishes at the CPU
+At time 989, process 25 arrives at the disk1 queue
+At time 989, process 26 begins at the CPU
+At time 1006, process 51 arrives at the CPU queue
+At time 1024, process 52 arrives at the CPU queue
+At time 1037, process 26 finishes at the CPU
+At time 1037, process 26 arrives at the disk2 queue
+At time 1037, process 27 begins at the CPU
+At time 1045, process 53 arrives at the CPU queue
+At time 1063, process 54 arrives at the CPU queue
+At time 1079, process 12 finishes at disk2
+At time 1079, process 16 begins at disk2
+At time 1080, process 27 finishes at the CPU
+At time 1080, process 55 arrives at the CPU queue
+At time 1080, process 27 arrives at the disk1 queue
+At time 1080, process 28 begins at the CPU
+At time 1101, process 56 arrives at the CPU queue
+At time 1106, process 2 finishes at disk1
+At time 1106, process 6 begins at disk1
+At time 1124, process 28 finishes at the CPU
+At time 1124, process 28 arrives at the disk1 queue
+At time 1124, process 29 begins at the CPU
+At time 1131, process 57 arrives at the CPU queue
+At time 1149, process 58 arrives at the CPU queue
+At time 1161, process 59 arrives at the CPU queue
+At time 1163, process 29 finishes at the CPU
+At time 1163, process 29 arrives at the disk2 queue
+At time 1163, process 30 begins at the CPU
+At time 1171, process 60 arrives at the CPU queue
+At time 1182, process 61 arrives at the CPU queue
+At time 1193, process 62 arrives at the CPU queue
+At time 1200, process 30 finishes at the CPU
+At time 1200, process 30 arrives at the disk1 queue
+At time 1200, process 9 begins at the CPU
+At time 1223, process 63 arrives at the CPU queue
+At time 1230, process 9 finishes at the CPU
+At time 1230, process 9 exits the system
+At time 1230, process 4 begins at the CPU
+At time 1237, process 64 arrives at the CPU queue
+At time 1243, process 6 finishes at disk1
+At time 1243, process 19 begins at disk1
+At time 1250, process 65 arrives at the CPU queue
+At time 1259, process 4 finishes at the CPU
+At time 1259, process 4 arrives at the disk2 queue
+At time 1259, process 31 begins at the CPU
+At time 1272, process 66 arrives at the CPU queue
+At time 1280, process 16 finishes at disk2
+At time 1280, process 17 begins at disk2
+At time 1284, process 31 finishes at the CPU
+At time 1284, process 31 arrives at the disk2 queue
+At time 1284, process 32 begins at the CPU
+At time 1288, process 67 arrives at the CPU queue
+At time 1308, process 32 finishes at the CPU
+At time 1308, process 32 exits the system
+At time 1308, process 33 begins at the CPU
+At time 1317, process 68 arrives at the CPU queue
+At time 1333, process 33 finishes at the CPU
+At time 1333, process 33 arrives at the disk1 queue
+At time 1333, process 34 begins at the CPU
+At time 1338, process 69 arrives at the CPU queue
+At time 1350, process 70 arrives at the CPU queue
+At time 1366, process 34 finishes at the CPU
+At time 1366, process 34 exits the system
+At time 1366, process 35 begins at the CPU
+At time 1376, process 71 arrives at the CPU queue
+At time 1377, process 19 finishes at disk1
+At time 1377, process 21 begins at disk1
+At time 1395, process 72 arrives at the CPU queue
+At time 1414, process 35 finishes at the CPU
+At time 1414, process 35 arrives at the disk1 queue
+At time 1414, process 13 begins at the CPU
+At time 1418, process 73 arrives at the CPU queue
+At time 1443, process 74 arrives at the CPU queue
+At time 1456, process 13 finishes at the CPU
+At time 1456, process 13 arrives at the disk2 queue
+At time 1456, process 36 begins at the CPU
+At time 1463, process 75 arrives at the CPU queue
+At time 1473, process 76 arrives at the CPU queue
+At time 1489, process 17 finishes at disk2
+At time 1489, process 18 begins at disk2
+At time 1492, process 21 finishes at disk1
+At time 1492, process 23 begins at disk1
+At time 1493, process 77 arrives at the CPU queue
+At time 1503, process 36 finishes at the CPU
+At time 1503, process 36 exits the system
+At time 1503, process 37 begins at the CPU
+At time 1517, process 78 arrives at the CPU queue
+At time 1531, process 79 arrives at the CPU queue
+At time 1539, process 37 finishes at the CPU
+At time 1539, process 37 arrives at the disk1 queue
+At time 1539, process 38 begins at the CPU
+At time 1560, process 80 arrives at the CPU queue
+At time 1565, process 38 finishes at the CPU
+At time 1565, process 38 arrives at the disk2 queue
+At time 1565, process 39 begins at the CPU
+At time 1581, process 81 arrives at the CPU queue
+At time 1589, process 39 finishes at the CPU
+At time 1589, process 39 exits the system
+At time 1589, process 40 begins at the CPU
+At time 1592, process 82 arrives at the CPU queue
+At time 1609, process 83 arrives at the CPU queue
+At time 1635, process 84 arrives at the CPU queue
+At time 1636, process 23 finishes at disk1
+At time 1636, process 24 begins at disk1
+At time 1637, process 40 finishes at the CPU
+At time 1637, process 40 arrives at the disk1 queue
+At time 1637, process 41 begins at the CPU
+At time 1653, process 85 arrives at the CPU queue
+At time 1667, process 86 arrives at the CPU queue
+At time 1669, process 41 finishes at the CPU
+At time 1669, process 41 arrives at the disk1 queue
+At time 1669, process 7 begins at the CPU
+At time 1695, process 87 arrives at the CPU queue
+At time 1709, process 88 arrives at the CPU queue
+At time 1718, process 18 finishes at disk2
+At time 1718, process 7 finishes at the CPU
+At time 1718, process 20 begins at disk2
+At time 1718, process 7 arrives at the disk2 queue
+At time 1718, process 14 begins at the CPU
+At time 1728, process 89 arrives at the CPU queue
+At time 1739, process 90 arrives at the CPU queue
+At time 1751, process 14 finishes at the CPU
+At time 1751, process 14 exits the system
+At time 1751, process 42 begins at the CPU
+At time 1758, process 91 arrives at the CPU queue
+At time 1765, process 24 finishes at disk1
+At time 1765, process 25 begins at disk1
+At time 1779, process 92 arrives at the CPU queue
+At time 1791, process 93 arrives at the CPU queue
+At time 1795, process 42 finishes at the CPU
+At time 1795, process 42 arrives at the disk1 queue
+At time 1795, process 43 begins at the CPU
+At time 1813, process 94 arrives at the CPU queue
+At time 1823, process 95 arrives at the CPU queue
+At time 1833, process 43 finishes at the CPU
+At time 1833, process 43 arrives at the disk2 queue
+At time 1833, process 44 begins at the CPU
+At time 1849, process 96 arrives at the CPU queue
+At time 1859, process 97 arrives at the CPU queue
+At time 1860, process 44 finishes at the CPU
+At time 1860, process 44 arrives at the disk1 queue
+At time 1860, process 45 begins at the CPU
+At time 1882, process 98 arrives at the CPU queue
+At time 1886, process 25 finishes at disk1
+At time 1886, process 27 begins at disk1
+At time 1901, process 45 finishes at the CPU
+At time 1901, process 99 arrives at the CPU queue
+At time 1901, process 45 arrives at the disk1 queue
+At time 1901, process 46 begins at the CPU
+At time 1925, process 100 arrives at the CPU queue
+At time 1925, process 46 finishes at the CPU
+At time 1925, process 46 arrives at the disk2 queue
+At time 1925, process 47 begins at the CPU
+At time 1940, process 101 arrives at the CPU queue
+At time 1953, process 47 finishes at the CPU
+At time 1953, process 47 exits the system
+At time 1953, process 48 begins at the CPU
+At time 1959, process 20 finishes at disk2
+At time 1959, process 22 begins at disk2
+At time 1964, process 102 arrives at the CPU queue
+At time 1987, process 103 arrives at the CPU queue
+At time 1998, process 27 finishes at disk1
+At time 1998, process 28 begins at disk1
+At time 2002, process 48 finishes at the CPU
+At time 2002, process 48 exits the system
+At time 2002, process 49 begins at the CPU
+At time 2015, process 104 arrives at the CPU queue
+At time 2028, process 105 arrives at the CPU queue
+At time 2046, process 106 arrives at the CPU queue
+At time 2047, process 49 finishes at the CPU
+At time 2047, process 49 arrives at the disk1 queue
+At time 2047, process 15 begins at the CPU
+At time 2070, process 107 arrives at the CPU queue
+At time 2087, process 108 arrives at the CPU queue
+At time 2093, process 15 finishes at the CPU
+At time 2093, process 15 arrives at the disk1 queue
+At time 2093, process 50 begins at the CPU
+At time 2108, process 109 arrives at the CPU queue
+At time 2133, process 28 finishes at disk1
+At time 2133, process 110 arrives at the CPU queue
+At time 2133, process 30 begins at disk1
+At time 2142, process 50 finishes at the CPU
+At time 2142, process 50 arrives at the disk1 queue
+At time 2142, process 51 begins at the CPU
+At time 2143, process 111 arrives at the CPU queue
+At time 2163, process 22 finishes at disk2
+At time 2163, process 8 begins at disk2
+At time 2168, process 112 arrives at the CPU queue
+At time 2183, process 113 arrives at the CPU queue
+At time 2187, process 51 finishes at the CPU
+At time 2187, process 51 arrives at the disk2 queue
+At time 2187, process 52 begins at the CPU
+At time 2193, process 114 arrives at the CPU queue
+At time 2218, process 115 arrives at the CPU queue
+At time 2223, process 52 finishes at the CPU
+At time 2223, process 52 arrives at the disk2 queue
+At time 2223, process 53 begins at the CPU
+At time 2248, process 116 arrives at the CPU queue
+At time 2266, process 53 finishes at the CPU
+At time 2266, process 117 arrives at the CPU queue
+At time 2266, process 53 exits the system
+At time 2266, process 54 begins at the CPU
+At time 2277, process 30 finishes at disk1
+At time 2277, process 33 begins at disk1
+At time 2296, process 118 arrives at the CPU queue
+At time 2303, process 54 finishes at the CPU
+At time 2303, process 54 arrives at the disk1 queue
+At time 2303, process 12 begins at the CPU
+At time 2309, process 119 arrives at the CPU queue
+At time 2320, process 120 arrives at the CPU queue
+At time 2337, process 121 arrives at the CPU queue
+At time 2345, process 12 finishes at the CPU
+At time 2345, process 12 exits the system
+At time 2345, process 55 begins at the CPU
+At time 2361, process 122 arrives at the CPU queue
+At time 2367, process 55 finishes at the CPU
+At time 2367, process 55 arrives at the disk2 queue
+At time 2367, process 56 begins at the CPU
+At time 2389, process 123 arrives at the CPU queue
+At time 2389, process 56 finishes at the CPU
+At time 2389, process 56 exits the system
+At time 2389, process 2 begins at the CPU
+At time 2392, process 33 finishes at disk1
+At time 2392, process 35 begins at disk1
+At time 2397, process 8 finishes at disk2
+At time 2397, process 26 begins at disk2
+At time 2414, process 124 arrives at the CPU queue
+At time 2420, process 2 finishes at the CPU
+At time 2420, process 2 exits the system
+At time 2420, process 57 begins at the CPU
+At time 2433, process 125 arrives at the CPU queue
+At time 2446, process 126 arrives at the CPU queue
+At time 2460, process 57 finishes at the CPU
+At time 2460, process 57 arrives at the disk1 queue
+At time 2460, process 58 begins at the CPU
+At time 2471, process 127 arrives at the CPU queue
+At time 2488, process 128 arrives at the CPU queue
+At time 2497, process 58 finishes at the CPU
+At time 2497, process 58 arrives at the disk1 queue
+At time 2497, process 59 begins at the CPU
+At time 2517, process 129 arrives at the CPU queue
+At time 2533, process 35 finishes at disk1
+At time 2533, process 37 begins at disk1
+At time 2535, process 130 arrives at the CPU queue
+At time 2542, process 59 finishes at the CPU
+At time 2542, process 59 arrives at the disk2 queue
+At time 2542, process 60 begins at the CPU
+At time 2545, process 131 arrives at the CPU queue
+At time 2573, process 132 arrives at the CPU queue
+At time 2585, process 60 finishes at the CPU
+At time 2585, process 60 arrives at the disk1 queue
+At time 2585, process 61 begins at the CPU
+At time 2593, process 133 arrives at the CPU queue
+At time 2619, process 61 finishes at the CPU
+At time 2619, process 61 arrives at the disk2 queue
+At time 2619, process 62 begins at the CPU
+At time 2622, process 134 arrives at the CPU queue
+At time 2644, process 62 finishes at the CPU
+At time 2644, process 62 arrives at the disk1 queue
+At time 2644, process 63 begins at the CPU
+At time 2646, process 135 arrives at the CPU queue
+At time 2656, process 37 finishes at disk1
+At time 2656, process 40 begins at disk1
+At time 2668, process 136 arrives at the CPU queue
+At time 2679, process 26 finishes at disk2
+At time 2679, process 137 arrives at the CPU queue
+At time 2679, process 29 begins at disk2
+At time 2684, process 63 finishes at the CPU
+At time 2684, process 63 arrives at the disk1 queue
+At time 2684, process 64 begins at the CPU
+At time 2703, process 138 arrives at the CPU queue
+At time 2725, process 139 arrives at the CPU queue
+At time 2733, process 64 finishes at the CPU
+At time 2733, process 64 arrives at the disk2 queue
+At time 2733, process 6 begins at the CPU
+At time 2744, process 140 arrives at the CPU queue
+At time 2754, process 141 arrives at the CPU queue
+At time 2757, process 6 finishes at the CPU
+At time 2757, process 6 exits the system
+At time 2757, process 65 begins at the CPU
+At time 2764, process 142 arrives at the CPU queue
+At time 2782, process 143 arrives at the CPU queue
+At time 2792, process 40 finishes at disk1
+At time 2792, process 41 begins at disk1
+At time 2795, process 65 finishes at the CPU
+At time 2795, process 65 arrives at the disk1 queue
+At time 2795, process 66 begins at the CPU
+At time 2796, process 144 arrives at the CPU queue
+At time 2819, process 66 finishes at the CPU
+At time 2819, process 145 arrives at the CPU queue
+At time 2819, process 66 arrives at the disk1 queue
+At time 2819, process 16 begins at the CPU
+At time 2833, process 146 arrives at the CPU queue
+At time 2858, process 16 finishes at the CPU
+At time 2858, process 16 arrives at the disk2 queue
+At time 2858, process 67 begins at the CPU
+At time 2859, process 147 arrives at the CPU queue
+At time 2874, process 148 arrives at the CPU queue
+At time 2884, process 149 arrives at the CPU queue
+At time 2887, process 67 finishes at the CPU
+At time 2887, process 67 arrives at the disk1 queue
+At time 2887, process 68 begins at the CPU
+At time 2913, process 150 arrives at the CPU queue
+At time 2917, process 29 finishes at disk2
+At time 2917, process 4 begins at disk2
+At time 2922, process 41 finishes at disk1
+At time 2922, process 68 finishes at the CPU
+At time 2922, process 42 begins at disk1
+At time 2922, process 68 exits the system
+At time 2922, process 69 begins at the CPU
+At time 2942, process 151 arrives at the CPU queue
+At time 2966, process 69 finishes at the CPU
+At time 2966, process 69 arrives at the disk2 queue
+At time 2966, process 70 begins at the CPU
+At time 2967, process 152 arrives at the CPU queue
+At time 2979, process 153 arrives at the CPU queue
+At time 2998, process 154 arrives at the CPU queue
+At time 3014, process 155 arrives at the CPU queue
+At time 3016, process 70 finishes at the CPU
+At time 3016, process 70 arrives at the disk1 queue
+At time 3016, process 71 begins at the CPU
+At time 3035, process 156 arrives at the CPU queue
+At time 3059, process 157 arrives at the CPU queue
+At time 3061, process 71 finishes at the CPU
+At time 3061, process 71 exits the system
+At time 3061, process 19 begins at the CPU
+At time 3064, process 42 finishes at disk1
+At time 3064, process 44 begins at disk1
+At time 3077, process 158 arrives at the CPU queue
+At time 3093, process 159 arrives at the CPU queue
+At time 3109, process 19 finishes at the CPU
+At time 3109, process 19 arrives at the disk1 queue
+At time 3109, process 72 begins at the CPU
+At time 3118, process 4 finishes at disk2
+At time 3118, process 31 begins at disk2
+At time 3121, process 160 arrives at the CPU queue
+At time 3139, process 161 arrives at the CPU queue
+At time 3156, process 72 finishes at the CPU
+At time 3156, process 72 exits the system
+At time 3156, process 73 begins at the CPU
+At time 3158, process 162 arrives at the CPU queue
+At time 3185, process 163 arrives at the CPU queue
+At time 3193, process 73 finishes at the CPU
+At time 3193, process 73 arrives at the disk2 queue
+At time 3193, process 74 begins at the CPU
+At time 3202, process 44 finishes at disk1
+At time 3202, process 45 begins at disk1
+At time 3207, process 164 arrives at the CPU queue
+At time 3217, process 165 arrives at the CPU queue
+At time 3227, process 166 arrives at the CPU queue
+At time 3231, process 74 finishes at the CPU
+At time 3231, process 74 exits the system
+At time 3231, process 75 begins at the CPU
+At time 3244, process 167 arrives at the CPU queue
+At time 3269, process 168 arrives at the CPU queue
+At time 3278, process 75 finishes at the CPU
+At time 3278, process 75 arrives at the disk1 queue
+At time 3278, process 76 begins at the CPU
+At time 3284, process 169 arrives at the CPU queue
+At time 3300, process 76 finishes at the CPU
+At time 3300, process 76 arrives at the disk2 queue
+At time 3300, process 17 begins at the CPU
+At time 3314, process 170 arrives at the CPU queue
+At time 3326, process 171 arrives at the CPU queue
+At time 3336, process 172 arrives at the CPU queue
+At time 3341, process 45 finishes at disk1
+At time 3341, process 17 finishes at the CPU
+At time 3341, process 49 begins at disk1
+At time 3341, process 17 exits the system
+At time 3341, process 21 begins at the CPU
+At time 3352, process 31 finishes at disk2
+At time 3352, process 13 begins at disk2
+At time 3354, process 173 arrives at the CPU queue
+At time 3367, process 21 finishes at the CPU
+At time 3367, process 21 arrives at the disk2 queue
+At time 3367, process 77 begins at the CPU
+At time 3379, process 174 arrives at the CPU queue
+At time 3398, process 77 finishes at the CPU
+At time 3398, process 77 arrives at the disk1 queue
+At time 3398, process 78 begins at the CPU
+At time 3404, process 175 arrives at the CPU queue
+At time 3421, process 176 arrives at the CPU queue
+At time 3437, process 78 finishes at the CPU
+At time 3437, process 78 arrives at the disk1 queue
+At time 3437, process 79 begins at the CPU
+At time 3445, process 177 arrives at the CPU queue
+At time 3457, process 178 arrives at the CPU queue
+At time 3458, process 49 finishes at disk1
+At time 3458, process 15 begins at disk1
+At time 3483, process 179 arrives at the CPU queue
+At time 3485, process 79 finishes at the CPU
+At time 3485, process 79 arrives at the disk2 queue
+At time 3485, process 80 begins at the CPU
+At time 3506, process 180 arrives at the CPU queue
+At time 3506, process 80 finishes at the CPU
+At time 3506, process 80 arrives at the disk1 queue
+At time 3506, process 81 begins at the CPU
+At time 3533, process 181 arrives at the CPU queue
+At time 3546, process 81 finishes at the CPU
+At time 3546, process 81 exits the system
+At time 3546, process 82 begins at the CPU
+At time 3562, process 182 arrives at the CPU queue
+At time 3573, process 13 finishes at disk2
+At time 3573, process 38 begins at disk2
+At time 3582, process 183 arrives at the CPU queue
+At time 3585, process 82 finishes at the CPU
+At time 3585, process 82 arrives at the disk2 queue
+At time 3585, process 83 begins at the CPU
+At time 3595, process 15 finishes at disk1
+At time 3595, process 50 begins at disk1
+At time 3604, process 184 arrives at the CPU queue
+At time 3625, process 185 arrives at the CPU queue
+At time 3634, process 83 finishes at the CPU
+At time 3634, process 83 exits the system
+At time 3634, process 84 begins at the CPU
+At time 3643, process 186 arrives at the CPU queue
+At time 3665, process 84 finishes at the CPU
+At time 3665, process 84 exits the system
+At time 3665, process 23 begins at the CPU
+At time 3668, process 187 arrives at the CPU queue
+At time 3681, process 188 arrives at the CPU queue
+At time 3699, process 23 finishes at the CPU
+At time 3699, process 23 arrives at the disk1 queue
+At time 3699, process 85 begins at the CPU
+At time 3710, process 189 arrives at the CPU queue
+At time 3719, process 50 finishes at disk1
+At time 3719, process 54 begins at disk1
+At time 3724, process 190 arrives at the CPU queue
+At time 3741, process 85 finishes at the CPU
+At time 3741, process 85 arrives at the disk1 queue
+At time 3741, process 86 begins at the CPU
+At time 3751, process 191 arrives at the CPU queue
+At time 3780, process 192 arrives at the CPU queue
+At time 3783, process 86 finishes at the CPU
+At time 3783, process 86 exits the system
+At time 3783, process 87 begins at the CPU
+At time 3784, process 38 finishes at disk2
+At time 3784, process 7 begins at disk2
+At time 3798, process 193 arrives at the CPU queue
+At time 3814, process 87 finishes at the CPU
+At time 3814, process 87 arrives at the disk2 queue
+At time 3814, process 88 begins at the CPU
+At time 3816, process 194 arrives at the CPU queue
+At time 3833, process 195 arrives at the CPU queue
+At time 3853, process 54 finishes at disk1
+At time 3853, process 88 finishes at the CPU
+At time 3853, process 196 arrives at the CPU queue
+At time 3853, process 57 begins at disk1
+At time 3853, process 88 arrives at the disk1 queue
+At time 3853, process 18 begins at the CPU
+At time 3881, process 197 arrives at the CPU queue
+At time 3881, process 18 finishes at the CPU
+At time 3881, process 18 exits the system
+At time 3881, process 89 begins at the CPU
+At time 3908, process 198 arrives at the CPU queue
+At time 3919, process 89 finishes at the CPU
+At time 3919, process 89 arrives at the disk1 queue
+At time 3919, process 90 begins at the CPU
+At time 3923, process 199 arrives at the CPU queue
+At time 3950, process 90 finishes at the CPU
+At time 3950, process 90 arrives at the disk2 queue
+At time 3950, process 91 begins at the CPU
+At time 3951, process 200 arrives at the CPU queue
+At time 3964, process 201 arrives at the CPU queue
+At time 3981, process 57 finishes at disk1
+At time 3981, process 58 begins at disk1
+At time 3985, process 91 finishes at the CPU
+At time 3985, process 91 arrives at the disk1 queue
+At time 3985, process 24 begins at the CPU
+At time 3994, process 202 arrives at the CPU queue
+At time 4009, process 24 finishes at the CPU
+At time 4009, process 24 arrives at the disk2 queue
+At time 4009, process 92 begins at the CPU
+At time 4024, process 203 arrives at the CPU queue
+At time 4035, process 92 finishes at the CPU
+At time 4035, process 92 exits the system
+At time 4035, process 93 begins at the CPU
+At time 4046, process 204 arrives at the CPU queue
+At time 4074, process 205 arrives at the CPU queue
+At time 4080, process 93 finishes at the CPU
+At time 4080, process 93 arrives at the disk1 queue
+At time 4080, process 94 begins at the CPU
+At time 4082, process 7 finishes at disk2
+At time 4082, process 43 begins at disk2
+At time 4096, process 206 arrives at the CPU queue
+At time 4109, process 94 finishes at the CPU
+At time 4109, process 94 arrives at the disk2 queue
+At time 4109, process 95 begins at the CPU
+At time 4113, process 207 arrives at the CPU queue
+At time 4122, process 58 finishes at disk1
+At time 4122, process 60 begins at disk1
+At time 4132, process 208 arrives at the CPU queue
+At time 4149, process 95 finishes at the CPU
+At time 4149, process 95 arrives at the disk1 queue
+At time 4149, process 96 begins at the CPU
+At time 4155, process 209 arrives at the CPU queue
+At time 4176, process 210 arrives at the CPU queue
+At time 4178, process 96 finishes at the CPU
+At time 4178, process 96 arrives at the disk1 queue
+At time 4178, process 97 begins at the CPU
+At time 4201, process 211 arrives at the CPU queue
+At time 4213, process 97 finishes at the CPU
+At time 4213, process 97 arrives at the disk2 queue
+At time 4213, process 98 begins at the CPU
+At time 4227, process 212 arrives at the CPU queue
+At time 4248, process 213 arrives at the CPU queue
+At time 4262, process 98 finishes at the CPU
+At time 4262, process 98 exits the system
+At time 4262, process 25 begins at the CPU
+At time 4269, process 60 finishes at disk1
+At time 4269, process 62 begins at disk1
+At time 4270, process 214 arrives at the CPU queue
+At time 4281, process 215 arrives at the CPU queue
+At time 4298, process 216 arrives at the CPU queue
+At time 4309, process 25 finishes at the CPU
+At time 4309, process 25 arrives at the disk1 queue
+At time 4309, process 99 begins at the CPU
+At time 4314, process 217 arrives at the CPU queue
+At time 4324, process 43 finishes at disk2
+At time 4324, process 46 begins at disk2
+At time 4326, process 218 arrives at the CPU queue
+At time 4331, process 99 finishes at the CPU
+At time 4331, process 99 arrives at the disk2 queue
+At time 4331, process 100 begins at the CPU
+At time 4342, process 219 arrives at the CPU queue
+At time 4367, process 220 arrives at the CPU queue
+At time 4371, process 100 finishes at the CPU
+At time 4371, process 100 arrives at the disk2 queue
+At time 4371, process 101 begins at the CPU
+At time 4395, process 221 arrives at the CPU queue
+At time 4408, process 101 finishes at the CPU
+At time 4408, process 101 exits the system
+At time 4408, process 20 begins at the CPU
+At time 4411, process 62 finishes at disk1
+At time 4411, process 63 begins at disk1
+At time 4421, process 222 arrives at the CPU queue
+At time 4440, process 20 finishes at the CPU
+At time 4440, process 20 arrives at the disk1 queue
+At time 4440, process 102 begins at the CPU
+At time 4441, process 223 arrives at the CPU queue
+At time 4462, process 224 arrives at the CPU queue
+At time 4476, process 225 arrives at the CPU queue
+At time 4482, process 102 finishes at the CPU
+At time 4482, process 102 arrives at the disk1 queue
+At time 4482, process 103 begins at the CPU
+At time 4497, process 226 arrives at the CPU queue
+At time 4527, process 227 arrives at the CPU queue
+At time 4529, process 103 finishes at the CPU
+At time 4529, process 103 arrives at the disk2 queue
+At time 4529, process 27 begins at the CPU
+At time 4540, process 63 finishes at disk1
+At time 4540, process 65 begins at disk1
+At time 4545, process 46 finishes at disk2
+At time 4545, process 51 begins at disk2
+At time 4547, process 228 arrives at the CPU queue
+At time 4568, process 27 finishes at the CPU
+At time 4568, process 27 arrives at the disk1 queue
+At time 4568, process 104 begins at the CPU
+At time 4569, process 229 arrives at the CPU queue
+At time 4599, process 230 arrives at the CPU queue
+At time 4600, process 104 finishes at the CPU
+At time 4600, process 104 arrives at the disk1 queue
+At time 4600, process 105 begins at the CPU
+At time 4615, process 231 arrives at the CPU queue
+At time 4629, process 232 arrives at the CPU queue
+At time 4631, process 105 finishes at the CPU
+At time 4631, process 105 arrives at the disk2 queue
+At time 4631, process 106 begins at the CPU
+At time 4647, process 65 finishes at disk1
+At time 4647, process 66 begins at disk1
+At time 4653, process 233 arrives at the CPU queue
+At time 4671, process 106 finishes at the CPU
+At time 4671, process 106 exits the system
+At time 4671, process 107 begins at the CPU
+At time 4674, process 234 arrives at the CPU queue
+At time 4688, process 235 arrives at the CPU queue
+At time 4713, process 107 finishes at the CPU
+At time 4713, process 107 arrives at the disk1 queue
+At time 4713, process 108 begins at the CPU
+At time 4714, process 236 arrives at the CPU queue
+At time 4735, process 237 arrives at the CPU queue
+At time 4752, process 238 arrives at the CPU queue
+At time 4755, process 108 finishes at the CPU
+At time 4755, process 108 arrives at the disk1 queue
+At time 4755, process 109 begins at the CPU
+At time 4762, process 51 finishes at disk2
+At time 4762, process 52 begins at disk2
+At time 4780, process 109 finishes at the CPU
+At time 4780, process 109 arrives at the disk2 queue
+At time 4780, process 28 begins at the CPU
+At time 4781, process 66 finishes at disk1
+At time 4781, process 67 begins at disk1
+At time 4782, process 239 arrives at the CPU queue
+At time 4800, process 28 finishes at the CPU
+At time 4800, process 28 arrives at the disk1 queue
+At time 4800, process 110 begins at the CPU
+At time 4806, process 240 arrives at the CPU queue
+At time 4818, process 241 arrives at the CPU queue
+At time 4826, process 110 finishes at the CPU
+At time 4826, process 110 exits the system
+At time 4826, process 111 begins at the CPU
+At time 4829, process 242 arrives at the CPU queue
+At time 4852, process 243 arrives at the CPU queue
+At time 4865, process 111 finishes at the CPU
+At time 4865, process 111 arrives at the disk2 queue
+At time 4865, process 22 begins at the CPU
+At time 4878, process 244 arrives at the CPU queue
+At time 4888, process 245 arrives at the CPU queue
+At time 4900, process 246 arrives at the CPU queue
+At time 4911, process 22 finishes at the CPU
+At time 4911, process 22 arrives at the disk2 queue
+At time 4911, process 112 begins at the CPU
+At time 4915, process 67 finishes at disk1
+At time 4915, process 70 begins at disk1
+At time 4923, process 247 arrives at the CPU queue
+At time 4947, process 248 arrives at the CPU queue
+At time 4957, process 249 arrives at the CPU queue
+At time 4961, process 112 finishes at the CPU
+At time 4961, process 112 arrives at the disk1 queue
+At time 4961, process 113 begins at the CPU
+At time 4987, process 250 arrives at the CPU queue
+At time 5002, process 113 finishes at the CPU
+At time 5002, process 113 arrives at the disk1 queue
+At time 5002, process 114 begins at the CPU
+At time 5011, process 251 arrives at the CPU queue
+At time 5015, process 52 finishes at disk2
+At time 5015, process 55 begins at disk2
+At time 5025, process 252 arrives at the CPU queue
+At time 5033, process 114 finishes at the CPU
+At time 5033, process 114 arrives at the disk2 queue
+At time 5033, process 115 begins at the CPU
+At time 5038, process 253 arrives at the CPU queue
+At time 5059, process 70 finishes at disk1
+At time 5059, process 19 begins at disk1
+At time 5061, process 254 arrives at the CPU queue
+At time 5079, process 255 arrives at the CPU queue
+At time 5081, process 115 finishes at the CPU
+At time 5081, process 115 arrives at the disk1 queue
+At time 5081, process 116 begins at the CPU
+At time 5100, process 256 arrives at the CPU queue
+At time 5115, process 257 arrives at the CPU queue
+At time 5122, process 116 finishes at the CPU
+At time 5122, process 116 arrives at the disk2 queue
+At time 5122, process 117 begins at the CPU
+At time 5133, process 258 arrives at the CPU queue
+At time 5150, process 259 arrives at the CPU queue
+At time 5160, process 260 arrives at the CPU queue
+At time 5165, process 117 finishes at the CPU
+At time 5165, process 117 arrives at the disk1 queue
+At time 5165, process 30 begins at the CPU
+At time 5185, process 261 arrives at the CPU queue
+At time 5187, process 30 finishes at the CPU
+At time 5187, process 30 arrives at the disk2 queue
+At time 5187, process 118 begins at the CPU
+At time 5205, process 262 arrives at the CPU queue
+At time 5208, process 19 finishes at disk1
+At time 5208, process 75 begins at disk1
+At time 5224, process 263 arrives at the CPU queue
+At time 5231, process 118 finishes at the CPU
+At time 5231, process 118 arrives at the disk1 queue
+At time 5231, process 119 begins at the CPU
+At time 5238, process 264 arrives at the CPU queue
+At time 5249, process 265 arrives at the CPU queue
+At time 5258, process 55 finishes at disk2
+At time 5258, process 119 finishes at the CPU
+At time 5258, process 59 begins at disk2
+At time 5258, process 119 exits the system
+At time 5258, process 120 begins at the CPU
+At time 5270, process 266 arrives at the CPU queue
+At time 5282, process 267 arrives at the CPU queue
+At time 5289, process 120 finishes at the CPU
+At time 5289, process 120 arrives at the disk2 queue
+At time 5289, process 121 begins at the CPU
+At time 5295, process 268 arrives at the CPU queue
+At time 5307, process 269 arrives at the CPU queue
+At time 5320, process 270 arrives at the CPU queue
+At time 5332, process 271 arrives at the CPU queue
+At time 5339, process 121 finishes at the CPU
+At time 5339, process 121 arrives at the disk1 queue
+At time 5339, process 122 begins at the CPU
+At time 5346, process 75 finishes at disk1
+At time 5346, process 77 begins at disk1
+At time 5348, process 272 arrives at the CPU queue
+At time 5371, process 273 arrives at the CPU queue
+At time 5384, process 274 arrives at the CPU queue
+At time 5389, process 122 finishes at the CPU
+At time 5389, process 122 arrives at the disk1 queue
+At time 5389, process 123 begins at the CPU
+At time 5413, process 275 arrives at the CPU queue
+At time 5426, process 276 arrives at the CPU queue
+At time 5432, process 123 finishes at the CPU
+At time 5432, process 123 arrives at the disk2 queue
+At time 5432, process 33 begins at the CPU
+At time 5448, process 277 arrives at the CPU queue
+At time 5452, process 33 finishes at the CPU
+At time 5452, process 33 exits the system
+At time 5452, process 8 begins at the CPU
+At time 5466, process 278 arrives at the CPU queue
+At time 5470, process 77 finishes at disk1
+At time 5470, process 78 begins at disk1
+At time 5477, process 8 finishes at the CPU
+At time 5477, process 279 arrives at the CPU queue
+At time 5477, process 8 arrives at the disk1 queue
+At time 5477, process 124 begins at the CPU
+At time 5487, process 280 arrives at the CPU queue
+At time 5504, process 124 finishes at the CPU
+At time 5504, process 124 arrives at the disk1 queue
+At time 5504, process 125 begins at the CPU
+At time 5507, process 281 arrives at the CPU queue
+At time 5537, process 282 arrives at the CPU queue
+At time 5542, process 125 finishes at the CPU
+At time 5542, process 125 exits the system
+At time 5542, process 126 begins at the CPU
+At time 5549, process 59 finishes at disk2
+At time 5549, process 61 begins at disk2
+At time 5554, process 283 arrives at the CPU queue
+At time 5575, process 126 finishes at the CPU
+At time 5575, process 126 exits the system
+At time 5575, process 127 begins at the CPU
+At time 5584, process 284 arrives at the CPU queue
+At time 5587, process 78 finishes at disk1
+At time 5587, process 80 begins at disk1
+At time 5596, process 285 arrives at the CPU queue
+At time 5600, process 127 finishes at the CPU
+At time 5600, process 127 exits the system
+At time 5600, process 128 begins at the CPU
+At time 5614, process 286 arrives at the CPU queue
+At time 5627, process 287 arrives at the CPU queue
+At time 5641, process 288 arrives at the CPU queue
+At time 5642, process 128 finishes at the CPU
+At time 5642, process 128 arrives at the disk1 queue
+At time 5642, process 129 begins at the CPU
+At time 5664, process 289 arrives at the CPU queue
+At time 5671, process 129 finishes at the CPU
+At time 5671, process 129 exits the system
+At time 5671, process 35 begins at the CPU
+At time 5676, process 290 arrives at the CPU queue
+At time 5688, process 291 arrives at the CPU queue
+At time 5707, process 292 arrives at the CPU queue
+At time 5716, process 35 finishes at the CPU
+At time 5716, process 35 arrives at the disk2 queue
+At time 5716, process 130 begins at the CPU
+At time 5722, process 293 arrives at the CPU queue
+At time 5733, process 80 finishes at disk1
+At time 5733, process 23 begins at disk1
+At time 5735, process 294 arrives at the CPU queue
+At time 5746, process 130 finishes at the CPU
+At time 5746, process 295 arrives at the CPU queue
+At time 5746, process 130 arrives at the disk1 queue
+At time 5746, process 131 begins at the CPU
+At time 5752, process 61 finishes at disk2
+At time 5752, process 64 begins at disk2
+At time 5768, process 296 arrives at the CPU queue
+At time 5774, process 131 finishes at the CPU
+At time 5774, process 131 exits the system
+At time 5774, process 132 begins at the CPU
+At time 5780, process 297 arrives at the CPU queue
+At time 5797, process 298 arrives at the CPU queue
+At time 5803, process 132 finishes at the CPU
+At time 5803, process 132 arrives at the disk2 queue
+At time 5803, process 133 begins at the CPU
+At time 5825, process 133 finishes at the CPU
+At time 5825, process 133 exits the system
+At time 5825, process 134 begins at the CPU
+At time 5826, process 299 arrives at the CPU queue
+At time 5839, process 300 arrives at the CPU queue
+At time 5851, process 301 arrives at the CPU queue
+At time 5858, process 23 finishes at disk1
+At time 5858, process 85 begins at disk1
+At time 5863, process 302 arrives at the CPU queue
+At time 5867, process 134 finishes at the CPU
+At time 5867, process 134 arrives at the disk1 queue
+At time 5867, process 135 begins at the CPU
+At time 5879, process 303 arrives at the CPU queue
+At time 5890, process 304 arrives at the CPU queue
+At time 5902, process 135 finishes at the CPU
+At time 5902, process 135 exits the system
+At time 5902, process 37 begins at the CPU
+At time 5917, process 305 arrives at the CPU queue
+At time 5923, process 37 finishes at the CPU
+At time 5923, process 37 exits the system
+At time 5923, process 136 begins at the CPU
+At time 5930, process 306 arrives at the CPU queue
+At time 5941, process 307 arrives at the CPU queue
+At time 5953, process 308 arrives at the CPU queue
+At time 5963, process 309 arrives at the CPU queue
+At time 5964, process 136 finishes at the CPU
+At time 5964, process 136 arrives at the disk1 queue
+At time 5964, process 26 begins at the CPU
+At time 5976, process 85 finishes at disk1
+At time 5976, process 88 begins at disk1
+At time 5977, process 310 arrives at the CPU queue
+At time 5994, process 311 arrives at the CPU queue
+At time 5997, process 26 finishes at the CPU
+At time 5997, process 26 arrives at the disk1 queue
+At time 5997, process 137 begins at the CPU
+At time 6022, process 312 arrives at the CPU queue
+At time 6041, process 64 finishes at disk2
+At time 6041, process 137 finishes at the CPU
+At time 6041, process 16 begins at disk2
+At time 6041, process 137 exits the system
+At time 6041, process 138 begins at the CPU
+At time 6044, process 313 arrives at the CPU queue
+At time 6059, process 314 arrives at the CPU queue
+At time 6073, process 315 arrives at the CPU queue
+At time 6074, process 138 finishes at the CPU
+At time 6074, process 138 arrives at the disk2 queue
+At time 6074, process 139 begins at the CPU
+At time 6093, process 316 arrives at the CPU queue
+At time 6095, process 139 finishes at the CPU
+At time 6095, process 139 arrives at the disk2 queue
+At time 6095, process 140 begins at the CPU
+At time 6119, process 317 arrives at the CPU queue
+At time 6126, process 88 finishes at disk1
+At time 6126, process 89 begins at disk1
+At time 6131, process 318 arrives at the CPU queue
+At time 6133, process 140 finishes at the CPU
+At time 6133, process 140 arrives at the disk1 queue
+At time 6133, process 141 begins at the CPU
+At time 6161, process 319 arrives at the CPU queue
+At time 6167, process 141 finishes at the CPU
+At time 6167, process 141 arrives at the disk1 queue
+At time 6167, process 142 begins at the CPU
+At time 6175, process 320 arrives at the CPU queue
+At time 6197, process 142 finishes at the CPU
+At time 6197, process 142 arrives at the disk2 queue
+At time 6197, process 143 begins at the CPU
+At time 6205, process 321 arrives at the CPU queue
+At time 6227, process 322 arrives at the CPU queue
+At time 6237, process 143 finishes at the CPU
+At time 6237, process 143 arrives at the disk2 queue
+At time 6237, process 40 begins at the CPU
+At time 6241, process 323 arrives at the CPU queue
+At time 6259, process 89 finishes at disk1
+At time 6259, process 91 begins at disk1
+At time 6270, process 324 arrives at the CPU queue
+At time 6286, process 40 finishes at the CPU
+At time 6286, process 40 exits the system
+At time 6286, process 144 begins at the CPU
+At time 6300, process 325 arrives at the CPU queue
+At time 6305, process 16 finishes at disk2
+At time 6305, process 69 begins at disk2
+At time 6310, process 144 finishes at the CPU
+At time 6310, process 144 arrives at the disk1 queue
+At time 6310, process 145 begins at the CPU
+At time 6329, process 326 arrives at the CPU queue
+At time 6335, process 145 finishes at the CPU
+At time 6335, process 145 arrives at the disk2 queue
+At time 6335, process 146 begins at the CPU
+At time 6359, process 327 arrives at the CPU queue
+At time 6368, process 146 finishes at the CPU
+At time 6368, process 146 arrives at the disk1 queue
+At time 6368, process 147 begins at the CPU
+At time 6370, process 328 arrives at the CPU queue
+At time 6390, process 329 arrives at the CPU queue
+At time 6397, process 91 finishes at disk1
+At time 6397, process 93 begins at disk1
+At time 6410, process 147 finishes at the CPU
+At time 6410, process 147 arrives at the disk1 queue
+At time 6410, process 148 begins at the CPU
+At time 6414, process 330 arrives at the CPU queue
+At time 6428, process 331 arrives at the CPU queue
+At time 6445, process 332 arrives at the CPU queue
+At time 6453, process 148 finishes at the CPU
+At time 6453, process 148 arrives at the disk1 queue
+At time 6453, process 149 begins at the CPU
+At time 6457, process 333 arrives at the CPU queue
+At time 6475, process 334 arrives at the CPU queue
+At time 6493, process 335 arrives at the CPU queue
+At time 6501, process 149 finishes at the CPU
+At time 6501, process 149 arrives at the disk2 queue
+At time 6501, process 150 begins at the CPU
+At time 6503, process 336 arrives at the CPU queue
+At time 6520, process 337 arrives at the CPU queue
+At time 6536, process 150 finishes at the CPU
+At time 6536, process 150 arrives at the disk1 queue
+At time 6536, process 29 begins at the CPU
+At time 6539, process 93 finishes at disk1
+At time 6539, process 95 begins at disk1
+At time 6549, process 338 arrives at the CPU queue
+At time 6565, process 339 arrives at the CPU queue
+At time 6572, process 29 finishes at the CPU
+At time 6572, process 29 exits the system
+At time 6572, process 41 begins at the CPU
+At time 6578, process 340 arrives at the CPU queue
+At time 6590, process 341 arrives at the CPU queue
+At time 6592, process 69 finishes at disk2
+At time 6592, process 73 begins at disk2
+At time 6598, process 41 finishes at the CPU
+At time 6598, process 41 arrives at the disk2 queue
+At time 6598, process 151 begins at the CPU
+At time 6615, process 342 arrives at the CPU queue
+At time 6639, process 343 arrives at the CPU queue
+At time 6645, process 151 finishes at the CPU
+At time 6645, process 151 arrives at the disk2 queue
+At time 6645, process 152 begins at the CPU
+At time 6659, process 344 arrives at the CPU queue
+At time 6662, process 95 finishes at disk1
+At time 6662, process 96 begins at disk1
+At time 6678, process 345 arrives at the CPU queue
+At time 6692, process 152 finishes at the CPU
+At time 6692, process 346 arrives at the CPU queue
+At time 6692, process 152 arrives at the disk1 queue
+At time 6692, process 153 begins at the CPU
+At time 6718, process 347 arrives at the CPU queue
+At time 6732, process 153 finishes at the CPU
+At time 6732, process 153 exits the system
+At time 6732, process 154 begins at the CPU
+At time 6739, process 348 arrives at the CPU queue
+At time 6763, process 349 arrives at the CPU queue
+At time 6767, process 154 finishes at the CPU
+At time 6767, process 154 arrives at the disk1 queue
+At time 6767, process 155 begins at the CPU
+At time 6785, process 350 arrives at the CPU queue
+At time 6792, process 96 finishes at disk1
+At time 6792, process 25 begins at disk1
+At time 6812, process 155 finishes at the CPU
+At time 6812, process 351 arrives at the CPU queue
+At time 6812, process 155 arrives at the disk1 queue
+At time 6812, process 156 begins at the CPU
+At time 6828, process 352 arrives at the CPU queue
+At time 6832, process 73 finishes at disk2
+At time 6832, process 76 begins at disk2
+At time 6840, process 353 arrives at the CPU queue
+At time 6857, process 156 finishes at the CPU
+At time 6857, process 156 arrives at the disk2 queue
+At time 6857, process 157 begins at the CPU
+At time 6867, process 354 arrives at the CPU queue
+At time 6885, process 157 finishes at the CPU
+At time 6885, process 157 arrives at the disk1 queue
+At time 6885, process 42 begins at the CPU
+At time 6893, process 355 arrives at the CPU queue
+At time 6910, process 356 arrives at the CPU queue
+At time 6924, process 25 finishes at disk1
+At time 6924, process 20 begins at disk1
+At time 6926, process 42 finishes at the CPU
+At time 6926, process 42 arrives at the disk2 queue
+At time 6926, process 158 begins at the CPU
+At time 6939, process 357 arrives at the CPU queue
+At time 6954, process 358 arrives at the CPU queue
+At time 6968, process 359 arrives at the CPU queue
+At time 6969, process 158 finishes at the CPU
+At time 6969, process 158 arrives at the disk1 queue
+At time 6969, process 159 begins at the CPU
+At time 6990, process 360 arrives at the CPU queue
+At time 7005, process 159 finishes at the CPU
+At time 7005, process 159 arrives at the disk2 queue
+At time 7005, process 4 begins at the CPU
+At time 7013, process 361 arrives at the CPU queue
+At time 7028, process 362 arrives at the CPU queue
+At time 7035, process 20 finishes at disk1
+At time 7035, process 102 begins at disk1
+At time 7037, process 4 finishes at the CPU
+At time 7037, process 4 arrives at the disk1 queue
+At time 7037, process 160 begins at the CPU
+At time 7040, process 363 arrives at the CPU queue
+At time 7046, process 76 finishes at disk2
+At time 7046, process 21 begins at disk2
+At time 7061, process 364 arrives at the CPU queue
+At time 7064, process 160 finishes at the CPU
+At time 7064, process 160 exits the system
+At time 7064, process 161 begins at the CPU
+At time 7078, process 365 arrives at the CPU queue
+At time 7093, process 161 finishes at the CPU
+At time 7093, process 161 arrives at the disk2 queue
+At time 7093, process 162 begins at the CPU
+At time 7094, process 366 arrives at the CPU queue
+At time 7111, process 367 arrives at the CPU queue
+At time 7136, process 162 finishes at the CPU
+At time 7136, process 162 arrives at the disk1 queue
+At time 7136, process 163 begins at the CPU
+At time 7140, process 368 arrives at the CPU queue
+At time 7153, process 369 arrives at the CPU queue
+At time 7161, process 163 finishes at the CPU
+At time 7161, process 163 exits the system
+At time 7161, process 44 begins at the CPU
+At time 7169, process 102 finishes at disk1
+At time 7169, process 27 begins at disk1
+At time 7173, process 370 arrives at the CPU queue
+At time 7186, process 371 arrives at the CPU queue
+At time 7194, process 44 finishes at the CPU
+At time 7194, process 44 arrives at the disk1 queue
+At time 7194, process 164 begins at the CPU
+At time 7204, process 372 arrives at the CPU queue
+At time 7220, process 373 arrives at the CPU queue
+At time 7226, process 164 finishes at the CPU
+At time 7226, process 164 arrives at the disk2 queue
+At time 7226, process 165 begins at the CPU
+At time 7249, process 374 arrives at the CPU queue
+At time 7267, process 165 finishes at the CPU
+At time 7267, process 165 arrives at the disk1 queue
+At time 7267, process 166 begins at the CPU
+At time 7273, process 375 arrives at the CPU queue
+At time 7284, process 27 finishes at disk1
+At time 7284, process 104 begins at disk1
+At time 7290, process 376 arrives at the CPU queue
+At time 7302, process 21 finishes at disk2
+At time 7302, process 79 begins at disk2
+At time 7304, process 166 finishes at the CPU
+At time 7304, process 166 arrives at the disk2 queue
+At time 7304, process 167 begins at the CPU
+At time 7317, process 377 arrives at the CPU queue
+At time 7334, process 378 arrives at the CPU queue
+At time 7339, process 167 finishes at the CPU
+At time 7339, process 167 exits the system
+At time 7339, process 168 begins at the CPU
+At time 7356, process 379 arrives at the CPU queue
+At time 7374, process 380 arrives at the CPU queue
+At time 7378, process 168 finishes at the CPU
+At time 7378, process 168 arrives at the disk1 queue
+At time 7378, process 169 begins at the CPU
+At time 7399, process 104 finishes at disk1
+At time 7399, process 107 begins at disk1
+At time 7402, process 381 arrives at the CPU queue
+At time 7418, process 382 arrives at the CPU queue
+At time 7426, process 169 finishes at the CPU
+At time 7426, process 169 arrives at the disk1 queue
+At time 7426, process 170 begins at the CPU
+At time 7444, process 383 arrives at the CPU queue
+At time 7448, process 170 finishes at the CPU
+At time 7448, process 170 exits the system
+At time 7448, process 171 begins at the CPU
+At time 7463, process 384 arrives at the CPU queue
+At time 7468, process 171 finishes at the CPU
+At time 7468, process 171 arrives at the disk2 queue
+At time 7468, process 172 begins at the CPU
+At time 7493, process 385 arrives at the CPU queue
+At time 7506, process 172 finishes at the CPU
+At time 7506, process 172 arrives at the disk1 queue
+At time 7506, process 45 begins at the CPU
+At time 7510, process 386 arrives at the CPU queue
+At time 7512, process 107 finishes at disk1
+At time 7512, process 108 begins at disk1
+At time 7533, process 45 finishes at the CPU
+At time 7533, process 45 arrives at the disk1 queue
+At time 7533, process 31 begins at the CPU
+At time 7540, process 387 arrives at the CPU queue
+At time 7557, process 79 finishes at disk2
+At time 7557, process 82 begins at disk2
+At time 7559, process 388 arrives at the CPU queue
+At time 7570, process 389 arrives at the CPU queue
+At time 7578, process 31 finishes at the CPU
+At time 7578, process 31 arrives at the disk2 queue
+At time 7578, process 173 begins at the CPU
+At time 7580, process 390 arrives at the CPU queue
+At time 7599, process 391 arrives at the CPU queue
+At time 7606, process 173 finishes at the CPU
+At time 7606, process 173 arrives at the disk1 queue
+At time 7606, process 174 begins at the CPU
+At time 7610, process 392 arrives at the CPU queue
+At time 7620, process 393 arrives at the CPU queue
+At time 7636, process 394 arrives at the CPU queue
+At time 7638, process 174 finishes at the CPU
+At time 7638, process 174 arrives at the disk2 queue
+At time 7638, process 175 begins at the CPU
+At time 7651, process 108 finishes at disk1
+At time 7651, process 28 begins at disk1
+At time 7652, process 395 arrives at the CPU queue
+At time 7666, process 396 arrives at the CPU queue
+At time 7668, process 175 finishes at the CPU
+At time 7668, process 175 arrives at the disk1 queue
+At time 7668, process 176 begins at the CPU
+At time 7694, process 397 arrives at the CPU queue
+At time 7704, process 398 arrives at the CPU queue
+At time 7716, process 176 finishes at the CPU
+At time 7716, process 176 exits the system
+At time 7716, process 177 begins at the CPU
+At time 7730, process 399 arrives at the CPU queue
+At time 7745, process 400 arrives at the CPU queue
+At time 7763, process 177 finishes at the CPU
+At time 7763, process 177 arrives at the disk2 queue
+At time 7763, process 178 begins at the CPU
+At time 7772, process 401 arrives at the CPU queue
+At time 7783, process 402 arrives at the CPU queue
+At time 7797, process 28 finishes at disk1
+At time 7797, process 112 begins at disk1
+At time 7799, process 403 arrives at the CPU queue
+At time 7810, process 178 finishes at the CPU
+At time 7810, process 178 arrives at the disk1 queue
+At time 7810, process 49 begins at the CPU
+At time 7828, process 404 arrives at the CPU queue
+At time 7836, process 49 finishes at the CPU
+At time 7836, process 49 arrives at the disk1 queue
+At time 7836, process 179 begins at the CPU
+At time 7840, process 405 arrives at the CPU queue
+At time 7855, process 82 finishes at disk2
+At time 7855, process 87 begins at disk2
+At time 7866, process 406 arrives at the CPU queue
+At time 7869, process 179 finishes at the CPU
+At time 7869, process 179 arrives at the disk2 queue
+At time 7869, process 180 begins at the CPU
+At time 7883, process 407 arrives at the CPU queue
+At time 7897, process 408 arrives at the CPU queue
+At time 7901, process 180 finishes at the CPU
+At time 7901, process 180 arrives at the disk2 queue
+At time 7901, process 181 begins at the CPU
+At time 7914, process 409 arrives at the CPU queue
+At time 7921, process 181 finishes at the CPU
+At time 7921, process 181 arrives at the disk1 queue
+At time 7921, process 182 begins at the CPU
+At time 7923, process 112 finishes at disk1
+At time 7923, process 113 begins at disk1
+At time 7930, process 410 arrives at the CPU queue
+At time 7949, process 182 finishes at the CPU
+At time 7949, process 411 arrives at the CPU queue
+At time 7949, process 182 exits the system
+At time 7949, process 13 begins at the CPU
+At time 7971, process 412 arrives at the CPU queue
+At time 7997, process 13 finishes at the CPU
+At time 7997, process 13 arrives at the disk1 queue
+At time 7997, process 183 begins at the CPU
+At time 7998, process 413 arrives at the CPU queue
+At time 8013, process 414 arrives at the CPU queue
+At time 8033, process 415 arrives at the CPU queue
+At time 8040, process 183 finishes at the CPU
+At time 8040, process 183 arrives at the disk2 queue
+At time 8040, process 15 begins at the CPU
+At time 8049, process 416 arrives at the CPU queue
+At time 8060, process 113 finishes at disk1
+At time 8060, process 115 begins at disk1
+At time 8065, process 15 finishes at the CPU
+At time 8065, process 15 arrives at the disk1 queue
+At time 8065, process 184 begins at the CPU
+At time 8077, process 417 arrives at the CPU queue
+At time 8100, process 418 arrives at the CPU queue
+At time 8110, process 184 finishes at the CPU
+At time 8110, process 184 arrives at the disk1 queue
+At time 8110, process 185 begins at the CPU
+At time 8111, process 419 arrives at the CPU queue
+At time 8129, process 420 arrives at the CPU queue
+At time 8140, process 421 arrives at the CPU queue
+At time 8148, process 87 finishes at disk2
+At time 8148, process 90 begins at disk2
+At time 8152, process 422 arrives at the CPU queue
+At time 8156, process 185 finishes at the CPU
+At time 8156, process 185 arrives at the disk2 queue
+At time 8156, process 186 begins at the CPU
+At time 8173, process 423 arrives at the CPU queue
+At time 8187, process 115 finishes at disk1
+At time 8187, process 117 begins at disk1
+At time 8193, process 424 arrives at the CPU queue
+At time 8203, process 186 finishes at the CPU
+At time 8203, process 186 arrives at the disk1 queue
+At time 8203, process 187 begins at the CPU
+At time 8211, process 425 arrives at the CPU queue
+At time 8231, process 426 arrives at the CPU queue
+At time 8235, process 187 finishes at the CPU
+At time 8235, process 187 arrives at the disk1 queue
+At time 8235, process 188 begins at the CPU
+At time 8254, process 427 arrives at the CPU queue
+At time 8269, process 428 arrives at the CPU queue
+At time 8280, process 188 finishes at the CPU
+At time 8280, process 188 arrives at the disk2 queue
+At time 8280, process 189 begins at the CPU
+At time 8282, process 429 arrives at the CPU queue
+At time 8303, process 189 finishes at the CPU
+At time 8303, process 189 arrives at the disk1 queue
+At time 8303, process 50 begins at the CPU
+At time 8311, process 430 arrives at the CPU queue
+At time 8317, process 117 finishes at disk1
+At time 8317, process 118 begins at disk1
+At time 8322, process 431 arrives at the CPU queue
+At time 8333, process 432 arrives at the CPU queue
+At time 8334, process 50 finishes at the CPU
+At time 8334, process 50 arrives at the disk1 queue
+At time 8334, process 190 begins at the CPU
+At time 8357, process 190 finishes at the CPU
+At time 8357, process 190 exits the system
+At time 8357, process 191 begins at the CPU
+At time 8359, process 433 arrives at the CPU queue
+At time 8373, process 434 arrives at the CPU queue
+At time 8382, process 191 finishes at the CPU
+At time 8382, process 191 arrives at the disk2 queue
+At time 8382, process 192 begins at the CPU
+At time 8391, process 435 arrives at the CPU queue
+At time 8407, process 436 arrives at the CPU queue
+At time 8413, process 192 finishes at the CPU
+At time 8413, process 192 arrives at the disk2 queue
+At time 8413, process 38 begins at the CPU
+At time 8424, process 118 finishes at disk1
+At time 8424, process 437 arrives at the CPU queue
+At time 8424, process 121 begins at disk1
+At time 8442, process 90 finishes at disk2
+At time 8442, process 24 begins at disk2
+At time 8448, process 438 arrives at the CPU queue
+At time 8463, process 38 finishes at the CPU
+At time 8463, process 38 arrives at the disk1 queue
+At time 8463, process 193 begins at the CPU
+At time 8474, process 439 arrives at the CPU queue
+At time 8497, process 440 arrives at the CPU queue
+At time 8507, process 193 finishes at the CPU
+At time 8507, process 193 arrives at the disk1 queue
+At time 8507, process 194 begins at the CPU
+At time 8521, process 441 arrives at the CPU queue
+At time 8545, process 442 arrives at the CPU queue
+At time 8554, process 194 finishes at the CPU
+At time 8554, process 194 arrives at the disk2 queue
+At time 8554, process 195 begins at the CPU
+At time 8558, process 121 finishes at disk1
+At time 8558, process 122 begins at disk1
+At time 8560, process 443 arrives at the CPU queue
+At time 8590, process 444 arrives at the CPU queue
+At time 8597, process 195 finishes at the CPU
+At time 8597, process 195 arrives at the disk1 queue
+At time 8597, process 54 begins at the CPU
+At time 8604, process 445 arrives at the CPU queue
+At time 8634, process 446 arrives at the CPU queue
+At time 8637, process 54 finishes at the CPU
+At time 8637, process 54 exits the system
+At time 8637, process 196 begins at the CPU
+At time 8656, process 447 arrives at the CPU queue
+At time 8664, process 122 finishes at disk1
+At time 8664, process 8 begins at disk1
+At time 8665, process 24 finishes at disk2
+At time 8665, process 94 begins at disk2
+At time 8670, process 196 finishes at the CPU
+At time 8670, process 196 arrives at the disk1 queue
+At time 8670, process 197 begins at the CPU
+At time 8671, process 448 arrives at the CPU queue
+At time 8686, process 449 arrives at the CPU queue
+At time 8693, process 197 finishes at the CPU
+At time 8693, process 197 exits the system
+At time 8693, process 198 begins at the CPU
+At time 8711, process 450 arrives at the CPU queue
+At time 8723, process 451 arrives at the CPU queue
+At time 8724, process 198 finishes at the CPU
+At time 8724, process 198 arrives at the disk2 queue
+At time 8724, process 199 begins at the CPU
+At time 8739, process 452 arrives at the CPU queue
+At time 8750, process 453 arrives at the CPU queue
+At time 8754, process 199 finishes at the CPU
+At time 8754, process 199 exits the system
+At time 8754, process 200 begins at the CPU
+At time 8761, process 454 arrives at the CPU queue
+At time 8776, process 455 arrives at the CPU queue
+At time 8789, process 456 arrives at the CPU queue
+At time 8792, process 200 finishes at the CPU
+At time 8792, process 200 arrives at the disk1 queue
+At time 8792, process 201 begins at the CPU
+At time 8811, process 8 finishes at disk1
+At time 8811, process 124 begins at disk1
+At time 8812, process 457 arrives at the CPU queue
+At time 8815, process 201 finishes at the CPU
+At time 8815, process 201 exits the system
+At time 8815, process 57 begins at the CPU
+At time 8830, process 458 arrives at the CPU queue
+At time 8845, process 459 arrives at the CPU queue
+At time 8855, process 460 arrives at the CPU queue
+At time 8863, process 57 finishes at the CPU
+At time 8863, process 57 arrives at the disk2 queue
+At time 8863, process 202 begins at the CPU
+At time 8874, process 461 arrives at the CPU queue
+At time 8897, process 202 finishes at the CPU
+At time 8897, process 202 arrives at the disk1 queue
+At time 8897, process 203 begins at the CPU
+At time 8900, process 462 arrives at the CPU queue
+At time 8913, process 463 arrives at the CPU queue
+At time 8927, process 124 finishes at disk1
+At time 8927, process 128 begins at disk1
+At time 8930, process 464 arrives at the CPU queue
+At time 8931, process 203 finishes at the CPU
+At time 8931, process 203 arrives at the disk1 queue
+At time 8931, process 204 begins at the CPU
+At time 8935, process 94 finishes at disk2
+At time 8935, process 97 begins at disk2
+At time 8956, process 465 arrives at the CPU queue
+At time 8976, process 466 arrives at the CPU queue
+At time 8978, process 204 finishes at the CPU
+At time 8978, process 204 arrives at the disk2 queue
+At time 8978, process 205 begins at the CPU
+At time 8991, process 467 arrives at the CPU queue
+At time 9002, process 205 finishes at the CPU
+At time 9002, process 205 arrives at the disk2 queue
+At time 9002, process 7 begins at the CPU
+At time 9018, process 468 arrives at the CPU queue
+At time 9046, process 469 arrives at the CPU queue
+At time 9050, process 7 finishes at the CPU
+At time 9050, process 7 arrives at the disk1 queue
+At time 9050, process 206 begins at the CPU
+At time 9055, process 128 finishes at disk1
+At time 9055, process 130 begins at disk1
+At time 9058, process 470 arrives at the CPU queue
+At time 9070, process 206 finishes at the CPU
+At time 9070, process 206 arrives at the disk1 queue
+At time 9070, process 207 begins at the CPU
+At time 9082, process 471 arrives at the CPU queue
+At time 9093, process 472 arrives at the CPU queue
+At time 9094, process 207 finishes at the CPU
+At time 9094, process 207 arrives at the disk1 queue
+At time 9094, process 58 begins at the CPU
+At time 9120, process 473 arrives at the CPU queue
+At time 9132, process 58 finishes at the CPU
+At time 9132, process 58 arrives at the disk2 queue
+At time 9132, process 208 begins at the CPU
+At time 9141, process 474 arrives at the CPU queue
+At time 9158, process 475 arrives at the CPU queue
+At time 9169, process 476 arrives at the CPU queue
+At time 9170, process 208 finishes at the CPU
+At time 9170, process 208 arrives at the disk2 queue
+At time 9170, process 209 begins at the CPU
+At time 9185, process 477 arrives at the CPU queue
+At time 9202, process 130 finishes at disk1
+At time 9202, process 134 begins at disk1
+At time 9204, process 209 finishes at the CPU
+At time 9204, process 209 arrives at the disk1 queue
+At time 9204, process 210 begins at the CPU
+At time 9205, process 478 arrives at the CPU queue
+At time 9218, process 479 arrives at the CPU queue
+At time 9227, process 97 finishes at disk2
+At time 9227, process 99 begins at disk2
+At time 9230, process 480 arrives at the CPU queue
+At time 9232, process 210 finishes at the CPU
+At time 9232, process 210 arrives at the disk1 queue
+At time 9232, process 211 begins at the CPU
+At time 9259, process 481 arrives at the CPU queue
+At time 9267, process 211 finishes at the CPU
+At time 9267, process 211 arrives at the disk2 queue
+At time 9267, process 212 begins at the CPU
+At time 9271, process 482 arrives at the CPU queue
+At time 9292, process 483 arrives at the CPU queue
+At time 9298, process 212 finishes at the CPU
+At time 9298, process 212 arrives at the disk2 queue
+At time 9298, process 213 begins at the CPU
+At time 9310, process 484 arrives at the CPU queue
+At time 9315, process 134 finishes at disk1
+At time 9315, process 136 begins at disk1
+At time 9323, process 485 arrives at the CPU queue
+At time 9326, process 213 finishes at the CPU
+At time 9326, process 213 arrives at the disk1 queue
+At time 9326, process 60 begins at the CPU
+At time 9345, process 486 arrives at the CPU queue
+At time 9355, process 487 arrives at the CPU queue
+At time 9366, process 60 finishes at the CPU
+At time 9366, process 60 arrives at the disk1 queue
+At time 9366, process 214 begins at the CPU
+At time 9383, process 488 arrives at the CPU queue
+At time 9400, process 489 arrives at the CPU queue
+At time 9412, process 214 finishes at the CPU
+At time 9412, process 214 arrives at the disk2 queue
+At time 9412, process 215 begins at the CPU
+At time 9417, process 490 arrives at the CPU queue
+At time 9446, process 491 arrives at the CPU queue
+At time 9449, process 136 finishes at disk1
+At time 9449, process 26 begins at disk1
+At time 9462, process 215 finishes at the CPU
+At time 9462, process 215 arrives at the disk1 queue
+At time 9462, process 216 begins at the CPU
+At time 9474, process 492 arrives at the CPU queue
+At time 9478, process 99 finishes at disk2
+At time 9478, process 100 begins at disk2
+At time 9491, process 216 finishes at the CPU
+At time 9491, process 216 arrives at the disk1 queue
+At time 9491, process 217 begins at the CPU
+At time 9492, process 493 arrives at the CPU queue
+At time 9509, process 494 arrives at the CPU queue
+At time 9522, process 495 arrives at the CPU queue
+At time 9541, process 217 finishes at the CPU
+At time 9541, process 217 arrives at the disk2 queue
+At time 9541, process 43 begins at the CPU
+At time 9542, process 496 arrives at the CPU queue
+At time 9566, process 497 arrives at the CPU queue
+At time 9572, process 43 finishes at the CPU
+At time 9572, process 43 arrives at the disk1 queue
+At time 9572, process 218 begins at the CPU
+At time 9576, process 26 finishes at disk1
+At time 9576, process 140 begins at disk1
+At time 9586, process 498 arrives at the CPU queue
+At time 9600, process 499 arrives at the CPU queue
+At time 9616, process 218 finishes at the CPU
+At time 9616, process 218 arrives at the disk1 queue
+At time 9616, process 219 begins at the CPU
+At time 9622, process 500 arrives at the CPU queue
+At time 9640, process 501 arrives at the CPU queue
+At time 9651, process 502 arrives at the CPU queue
+At time 9655, process 219 finishes at the CPU
+At time 9655, process 219 arrives at the disk2 queue
+At time 9655, process 220 begins at the CPU
+At time 9665, process 503 arrives at the CPU queue
+At time 9680, process 140 finishes at disk1
+At time 9680, process 141 begins at disk1
+At time 9681, process 220 finishes at the CPU
+At time 9681, process 220 arrives at the disk1 queue
+At time 9681, process 221 begins at the CPU
+At time 9682, process 504 arrives at the CPU queue
+At time 9707, process 505 arrives at the CPU queue
+At time 9717, process 221 finishes at the CPU
+At time 9717, process 221 arrives at the disk2 queue
+At time 9717, process 62 begins at the CPU
+At time 9718, process 506 arrives at the CPU queue
+At time 9734, process 507 arrives at the CPU queue
+At time 9749, process 508 arrives at the CPU queue
+At time 9755, process 62 finishes at the CPU
+At time 9755, process 62 arrives at the disk1 queue
+At time 9755, process 222 begins at the CPU
+At time 9769, process 100 finishes at disk2
+At time 9769, process 509 arrives at the CPU queue
+At time 9769, process 103 begins at disk2
+At time 9782, process 510 arrives at the CPU queue
+At time 9790, process 141 finishes at disk1
+At time 9790, process 144 begins at disk1
+At time 9798, process 222 finishes at the CPU
+At time 9798, process 222 arrives at the disk1 queue
+At time 9798, process 223 begins at the CPU
+At time 9805, process 511 arrives at the CPU queue
+At time 9815, process 512 arrives at the CPU queue
+At time 9820, process 223 finishes at the CPU
+At time 9820, process 223 arrives at the disk2 queue
+At time 9820, process 224 begins at the CPU
+At time 9841, process 513 arrives at the CPU queue
+At time 9853, process 514 arrives at the CPU queue
+At time 9864, process 224 finishes at the CPU
+At time 9864, process 224 arrives at the disk2 queue
+At time 9864, process 225 begins at the CPU
+At time 9866, process 515 arrives at the CPU queue
+At time 9879, process 516 arrives at the CPU queue
+At time 9909, process 225 finishes at the CPU
+At time 9909, process 517 arrives at the CPU queue
+At time 9909, process 225 exits the system
+At time 9909, process 226 begins at the CPU
+At time 9920, process 144 finishes at disk1
+At time 9920, process 146 begins at disk1
+At time 9938, process 518 arrives at the CPU queue
+At time 9958, process 519 arrives at the CPU queue
+At time 9959, process 226 finishes at the CPU
+At time 9959, process 226 arrives at the disk1 queue
+At time 9959, process 227 begins at the CPU
+At time 9968, process 520 arrives at the CPU queue
+At time 9984, process 227 finishes at the CPU
+At time 9984, process 227 arrives at the disk1 queue
+At time 9984, process 63 begins at the CPU
+At time 9994, process 521 arrives at the CPU queue
+At time 10015, process 103 finishes at disk2
+At time 10015, process 105 begins at disk2
+At time 10022, process 522 arrives at the CPU queue
+At time 10032, process 63 finishes at the CPU
+At time 10032, process 63 exits the system
+At time 10032, process 46 begins at the CPU
+At time 10040, process 523 arrives at the CPU queue
+At time 10060, process 146 finishes at disk1
+At time 10060, process 147 begins at disk1
+At time 10063, process 524 arrives at the CPU queue
+At time 10079, process 46 finishes at the CPU
+At time 10079, process 46 arrives at the disk1 queue
+At time 10079, process 228 begins at the CPU
+At time 10086, process 525 arrives at the CPU queue
+At time 10107, process 526 arrives at the CPU queue
+At time 10112, process 228 finishes at the CPU
+At time 10112, process 228 arrives at the disk2 queue
+At time 10112, process 229 begins at the CPU
+At time 10136, process 527 arrives at the CPU queue
+At time 10160, process 229 finishes at the CPU
+At time 10160, process 229 exits the system
+At time 10160, process 230 begins at the CPU
+At time 10165, process 528 arrives at the CPU queue
+At time 10184, process 529 arrives at the CPU queue
+At time 10186, process 147 finishes at disk1
+At time 10186, process 148 begins at disk1
+At time 10208, process 230 finishes at the CPU
+At time 10208, process 230 arrives at the disk1 queue
+At time 10208, process 231 begins at the CPU
+At time 10210, process 530 arrives at the CPU queue
+At time 10237, process 531 arrives at the CPU queue
+At time 10254, process 231 finishes at the CPU
+At time 10254, process 532 arrives at the CPU queue
+At time 10254, process 231 arrives at the disk2 queue
+At time 10254, process 232 begins at the CPU
+At time 10272, process 533 arrives at the CPU queue
+At time 10282, process 232 finishes at the CPU
+At time 10282, process 232 arrives at the disk1 queue
+At time 10282, process 65 begins at the CPU
+At time 10288, process 534 arrives at the CPU queue
+At time 10305, process 535 arrives at the CPU queue
+At time 10306, process 148 finishes at disk1
+At time 10306, process 150 begins at disk1
+At time 10310, process 105 finishes at disk2
+At time 10310, process 109 begins at disk2
+At time 10318, process 536 arrives at the CPU queue
+At time 10332, process 65 finishes at the CPU
+At time 10332, process 65 arrives at the disk1 queue
+At time 10332, process 233 begins at the CPU
+At time 10340, process 537 arrives at the CPU queue
+At time 10352, process 538 arrives at the CPU queue
+At time 10363, process 539 arrives at the CPU queue
+At time 10374, process 540 arrives at the CPU queue
+At time 10381, process 233 finishes at the CPU
+At time 10381, process 233 arrives at the disk2 queue
+At time 10381, process 234 begins at the CPU
+At time 10401, process 541 arrives at the CPU queue
+At time 10403, process 234 finishes at the CPU
+At time 10403, process 234 arrives at the disk1 queue
+At time 10403, process 235 begins at the CPU
+At time 10414, process 150 finishes at disk1
+At time 10414, process 542 arrives at the CPU queue
+At time 10414, process 152 begins at disk1
+At time 10428, process 543 arrives at the CPU queue
+At time 10437, process 235 finishes at the CPU
+At time 10437, process 235 arrives at the disk2 queue
+At time 10437, process 236 begins at the CPU
+At time 10443, process 544 arrives at the CPU queue
+At time 10453, process 545 arrives at the CPU queue
+At time 10465, process 546 arrives at the CPU queue
+At time 10479, process 236 finishes at the CPU
+At time 10479, process 547 arrives at the CPU queue
+At time 10479, process 236 exits the system
+At time 10479, process 237 begins at the CPU
+At time 10500, process 548 arrives at the CPU queue
+At time 10525, process 549 arrives at the CPU queue
+At time 10528, process 237 finishes at the CPU
+At time 10528, process 237 arrives at the disk1 queue
+At time 10528, process 238 begins at the CPU
+At time 10529, process 152 finishes at disk1
+At time 10529, process 154 begins at disk1
+At time 10551, process 109 finishes at disk2
+At time 10551, process 550 arrives at the CPU queue
+At time 10551, process 111 begins at disk2
+At time 10561, process 238 finishes at the CPU
+At time 10561, process 238 exits the system
+At time 10561, process 51 begins at the CPU
+At time 10568, process 551 arrives at the CPU queue
+At time 10586, process 552 arrives at the CPU queue
+At time 10599, process 51 finishes at the CPU
+At time 10599, process 51 arrives at the disk2 queue
+At time 10599, process 66 begins at the CPU
+At time 10601, process 553 arrives at the CPU queue
+At time 10612, process 554 arrives at the CPU queue
+At time 10629, process 66 finishes at the CPU
+At time 10629, process 66 arrives at the disk1 queue
+At time 10629, process 239 begins at the CPU
+At time 10631, process 555 arrives at the CPU queue
+At time 10651, process 556 arrives at the CPU queue
+At time 10663, process 239 finishes at the CPU
+At time 10663, process 239 exits the system
+At time 10663, process 240 begins at the CPU
+At time 10672, process 154 finishes at disk1
+At time 10672, process 155 begins at disk1
+At time 10675, process 557 arrives at the CPU queue
+At time 10687, process 558 arrives at the CPU queue
+At time 10698, process 240 finishes at the CPU
+At time 10698, process 240 arrives at the disk1 queue
+At time 10698, process 241 begins at the CPU
+At time 10704, process 559 arrives at the CPU queue
+At time 10720, process 560 arrives at the CPU queue
+At time 10733, process 241 finishes at the CPU
+At time 10733, process 241 arrives at the disk1 queue
+At time 10733, process 242 begins at the CPU
+At time 10748, process 561 arrives at the CPU queue
+At time 10757, process 111 finishes at disk2
+At time 10757, process 242 finishes at the CPU
+At time 10757, process 22 begins at disk2
+At time 10757, process 242 exits the system
+At time 10757, process 243 begins at the CPU
+At time 10778, process 562 arrives at the CPU queue
+At time 10793, process 563 arrives at the CPU queue
+At time 10796, process 243 finishes at the CPU
+At time 10796, process 243 exits the system
+At time 10796, process 244 begins at the CPU
+At time 10798, process 155 finishes at disk1
+At time 10798, process 157 begins at disk1
+At time 10805, process 564 arrives at the CPU queue
+At time 10827, process 565 arrives at the CPU queue
+At time 10828, process 244 finishes at the CPU
+At time 10828, process 244 arrives at the disk2 queue
+At time 10828, process 245 begins at the CPU
+At time 10843, process 566 arrives at the CPU queue
+At time 10852, process 245 finishes at the CPU
+At time 10852, process 245 arrives at the disk1 queue
+At time 10852, process 246 begins at the CPU
+At time 10870, process 567 arrives at the CPU queue
+At time 10872, process 246 finishes at the CPU
+At time 10872, process 246 arrives at the disk2 queue
+At time 10872, process 67 begins at the CPU
+At time 10886, process 568 arrives at the CPU queue
+At time 10900, process 569 arrives at the CPU queue
+At time 10902, process 67 finishes at the CPU
+At time 10902, process 67 arrives at the disk1 queue
+At time 10902, process 247 begins at the CPU
+At time 10914, process 570 arrives at the CPU queue
+At time 10931, process 247 finishes at the CPU
+At time 10931, process 247 arrives at the disk2 queue
+At time 10931, process 248 begins at the CPU
+At time 10933, process 571 arrives at the CPU queue
+At time 10941, process 157 finishes at disk1
+At time 10941, process 158 begins at disk1
+At time 10944, process 572 arrives at the CPU queue
+At time 10957, process 573 arrives at the CPU queue
+At time 10967, process 248 finishes at the CPU
+At time 10967, process 248 exits the system
+At time 10967, process 249 begins at the CPU
+At time 10968, process 574 arrives at the CPU queue
+At time 10978, process 575 arrives at the CPU queue
+At time 10988, process 249 finishes at the CPU
+At time 10988, process 249 arrives at the disk1 queue
+At time 10988, process 250 begins at the CPU
+At time 10990, process 22 finishes at disk2
+At time 10990, process 114 begins at disk2
+At time 10996, process 576 arrives at the CPU queue
+At time 11016, process 577 arrives at the CPU queue
+At time 11024, process 250 finishes at the CPU
+At time 11024, process 250 arrives at the disk2 queue
+At time 11024, process 251 begins at the CPU
+At time 11033, process 578 arrives at the CPU queue
+At time 11049, process 579 arrives at the CPU queue
+At time 11051, process 251 finishes at the CPU
+At time 11051, process 251 arrives at the disk1 queue
+At time 11051, process 52 begins at the CPU
+At time 11065, process 580 arrives at the CPU queue
+At time 11066, process 158 finishes at disk1
+At time 11066, process 4 begins at disk1
+At time 11075, process 52 finishes at the CPU
+At time 11075, process 52 arrives at the disk1 queue
+At time 11075, process 252 begins at the CPU
+At time 11095, process 581 arrives at the CPU queue
+At time 11121, process 252 finishes at the CPU
+At time 11121, process 252 arrives at the disk2 queue
+At time 11121, process 253 begins at the CPU
+At time 11125, process 582 arrives at the CPU queue
+At time 11147, process 583 arrives at the CPU queue
+At time 11153, process 253 finishes at the CPU
+At time 11153, process 253 arrives at the disk2 queue
+At time 11153, process 70 begins at the CPU
+At time 11175, process 4 finishes at disk1
+At time 11175, process 162 begins at disk1
+At time 11177, process 584 arrives at the CPU queue
+At time 11189, process 70 finishes at the CPU
+At time 11189, process 70 arrives at the disk1 queue
+At time 11189, process 254 begins at the CPU
+At time 11192, process 585 arrives at the CPU queue
+At time 11198, process 114 finishes at disk2
+At time 11198, process 116 begins at disk2
+At time 11217, process 586 arrives at the CPU queue
+At time 11218, process 254 finishes at the CPU
+At time 11218, process 254 exits the system
+At time 11218, process 255 begins at the CPU
+At time 11231, process 587 arrives at the CPU queue
+At time 11241, process 588 arrives at the CPU queue
+At time 11252, process 589 arrives at the CPU queue
+At time 11260, process 255 finishes at the CPU
+At time 11260, process 255 arrives at the disk2 queue
+At time 11260, process 256 begins at the CPU
+At time 11268, process 590 arrives at the CPU queue
+At time 11288, process 256 finishes at the CPU
+At time 11288, process 256 arrives at the disk1 queue
+At time 11288, process 257 begins at the CPU
+At time 11293, process 162 finishes at disk1
+At time 11293, process 44 begins at disk1
+At time 11298, process 591 arrives at the CPU queue
+At time 11316, process 592 arrives at the CPU queue
+At time 11318, process 257 finishes at the CPU
+At time 11318, process 257 arrives at the disk1 queue
+At time 11318, process 258 begins at the CPU
+At time 11345, process 593 arrives at the CPU queue
+At time 11356, process 258 finishes at the CPU
+At time 11356, process 258 arrives at the disk2 queue
+At time 11356, process 259 begins at the CPU
+At time 11374, process 594 arrives at the CPU queue
+At time 11392, process 595 arrives at the CPU queue
+At time 11396, process 259 finishes at the CPU
+At time 11396, process 259 arrives at the disk1 queue
+At time 11396, process 260 begins at the CPU
+At time 11403, process 44 finishes at disk1
+At time 11403, process 165 begins at disk1
+At time 11420, process 260 finishes at the CPU
+At time 11420, process 260 arrives at the disk1 queue
+At time 11420, process 261 begins at the CPU
+At time 11422, process 596 arrives at the CPU queue
+At time 11433, process 597 arrives at the CPU queue
+At time 11451, process 598 arrives at the CPU queue
+At time 11463, process 599 arrives at the CPU queue
+At time 11466, process 116 finishes at disk2
+At time 11466, process 30 begins at disk2
+At time 11470, process 261 finishes at the CPU
+At time 11470, process 261 arrives at the disk2 queue
+At time 11470, process 262 begins at the CPU
+At time 11486, process 600 arrives at the CPU queue
+At time 11496, process 262 finishes at the CPU
+At time 11496, process 262 exits the system
+At time 11496, process 19 begins at the CPU
+At time 11513, process 601 arrives at the CPU queue
+At time 11528, process 602 arrives at the CPU queue
+At time 11535, process 19 finishes at the CPU
+At time 11535, process 19 arrives at the disk1 queue
+At time 11535, process 263 begins at the CPU
+At time 11540, process 165 finishes at disk1
+At time 11540, process 168 begins at disk1
+At time 11549, process 603 arrives at the CPU queue
+At time 11561, process 263 finishes at the CPU
+At time 11561, process 604 arrives at the CPU queue
+At time 11561, process 263 exits the system
+At time 11561, process 264 begins at the CPU
+At time 11585, process 264 finishes at the CPU
+At time 11585, process 264 arrives at the disk1 queue
+At time 11585, process 265 begins at the CPU
+At time 11590, process 605 arrives at the CPU queue
+At time 11605, process 606 arrives at the CPU queue
+At time 11614, process 265 finishes at the CPU
+At time 11614, process 265 arrives at the disk2 queue
+At time 11614, process 55 begins at the CPU
+At time 11632, process 607 arrives at the CPU queue
+At time 11639, process 55 finishes at the CPU
+At time 11639, process 55 arrives at the disk2 queue
+At time 11639, process 266 begins at the CPU
+At time 11653, process 608 arrives at the CPU queue
+At time 11655, process 168 finishes at disk1
+At time 11655, process 169 begins at disk1
+At time 11669, process 609 arrives at the CPU queue
+At time 11675, process 30 finishes at disk2
+At time 11675, process 120 begins at disk2
+At time 11680, process 610 arrives at the CPU queue
+At time 11681, process 266 finishes at the CPU
+At time 11681, process 266 arrives at the disk1 queue
+At time 11681, process 267 begins at the CPU
+At time 11696, process 611 arrives at the CPU queue
+At time 11708, process 612 arrives at the CPU queue
+At time 11725, process 267 finishes at the CPU
+At time 11725, process 267 exits the system
+At time 11725, process 268 begins at the CPU
+At time 11734, process 613 arrives at the CPU queue
+At time 11754, process 614 arrives at the CPU queue
+At time 11774, process 268 finishes at the CPU
+At time 11774, process 268 arrives at the disk1 queue
+At time 11774, process 269 begins at the CPU
+At time 11777, process 615 arrives at the CPU queue
+At time 11798, process 169 finishes at disk1
+At time 11798, process 172 begins at disk1
+At time 11801, process 616 arrives at the CPU queue
+At time 11813, process 269 finishes at the CPU
+At time 11813, process 617 arrives at the CPU queue
+At time 11813, process 269 arrives at the disk2 queue
+At time 11813, process 270 begins at the CPU
+At time 11837, process 618 arrives at the CPU queue
+At time 11842, process 270 finishes at the CPU
+At time 11842, process 270 arrives at the disk1 queue
+At time 11842, process 271 begins at the CPU
+At time 11863, process 619 arrives at the CPU queue
+At time 11885, process 620 arrives at the CPU queue
+At time 11889, process 271 finishes at the CPU
+At time 11889, process 271 arrives at the disk1 queue
+At time 11889, process 75 begins at the CPU
+At time 11900, process 621 arrives at the CPU queue
+At time 11919, process 172 finishes at disk1
+At time 11919, process 622 arrives at the CPU queue
+At time 11919, process 45 begins at disk1
+At time 11931, process 75 finishes at the CPU
+At time 11931, process 75 arrives at the disk1 queue
+At time 11931, process 272 begins at the CPU
+At time 11943, process 623 arrives at the CPU queue
+At time 11952, process 272 finishes at the CPU
+At time 11952, process 272 arrives at the disk2 queue
+At time 11952, process 273 begins at the CPU
+At time 11955, process 120 finishes at disk2
+At time 11955, process 123 begins at disk2
+At time 11966, process 624 arrives at the CPU queue
+At time 11976, process 273 finishes at the CPU
+At time 11976, process 273 arrives at the disk2 queue
+At time 11976, process 274 begins at the CPU
+At time 11996, process 625 arrives at the CPU queue
+At time 12012, process 274 finishes at the CPU
+At time 12012, process 274 exits the system
+At time 12012, process 275 begins at the CPU
+At time 12019, process 626 arrives at the CPU queue
+At time 12033, process 275 finishes at the CPU
+At time 12033, process 275 arrives at the disk1 queue
+At time 12033, process 276 begins at the CPU
+At time 12036, process 45 finishes at disk1
+At time 12036, process 173 begins at disk1
+At time 12047, process 627 arrives at the CPU queue
+At time 12064, process 276 finishes at the CPU
+At time 12064, process 276 arrives at the disk1 queue
+At time 12064, process 277 begins at the CPU
+At time 12072, process 628 arrives at the CPU queue
+At time 12089, process 277 finishes at the CPU
+At time 12089, process 629 arrives at the CPU queue
+At time 12089, process 277 arrives at the disk2 queue
+At time 12089, process 278 begins at the CPU
+At time 12112, process 630 arrives at the CPU queue
+At time 12131, process 631 arrives at the CPU queue
+At time 12137, process 278 finishes at the CPU
+At time 12137, process 278 arrives at the disk1 queue
+At time 12137, process 77 begins at the CPU
+At time 12161, process 632 arrives at the CPU queue
+At time 12180, process 173 finishes at disk1
+At time 12180, process 175 begins at disk1
+At time 12181, process 77 finishes at the CPU
+At time 12181, process 77 arrives at the disk2 queue
+At time 12181, process 279 begins at the CPU
+At time 12187, process 633 arrives at the CPU queue
+At time 12211, process 634 arrives at the CPU queue
+At time 12229, process 279 finishes at the CPU
+At time 12229, process 279 exits the system
+At time 12229, process 280 begins at the CPU
+At time 12241, process 123 finishes at disk2
+At time 12241, process 635 arrives at the CPU queue
+At time 12241, process 35 begins at disk2
+At time 12249, process 280 finishes at the CPU
+At time 12249, process 280 exits the system
+At time 12249, process 281 begins at the CPU
+At time 12270, process 636 arrives at the CPU queue
+At time 12273, process 281 finishes at the CPU
+At time 12273, process 281 exits the system
+At time 12273, process 282 begins at the CPU
+At time 12286, process 175 finishes at disk1
+At time 12286, process 178 begins at disk1
+At time 12291, process 637 arrives at the CPU queue
+At time 12303, process 282 finishes at the CPU
+At time 12303, process 282 arrives at the disk1 queue
+At time 12303, process 59 begins at the CPU
+At time 12317, process 638 arrives at the CPU queue
+At time 12328, process 59 finishes at the CPU
+At time 12328, process 59 arrives at the disk1 queue
+At time 12328, process 283 begins at the CPU
+At time 12340, process 639 arrives at the CPU queue
+At time 12360, process 640 arrives at the CPU queue
+At time 12375, process 283 finishes at the CPU
+At time 12375, process 283 arrives at the disk2 queue
+At time 12375, process 284 begins at the CPU
+At time 12377, process 641 arrives at the CPU queue
+At time 12406, process 178 finishes at disk1
+At time 12406, process 49 begins at disk1
+At time 12407, process 642 arrives at the CPU queue
+At time 12412, process 284 finishes at the CPU
+At time 12412, process 284 arrives at the disk1 queue
+At time 12412, process 78 begins at the CPU
+At time 12417, process 643 arrives at the CPU queue
+At time 12433, process 644 arrives at the CPU queue
+At time 12436, process 78 finishes at the CPU
+At time 12436, process 78 arrives at the disk2 queue
+At time 12436, process 285 begins at the CPU
+At time 12450, process 645 arrives at the CPU queue
+At time 12470, process 285 finishes at the CPU
+At time 12470, process 285 arrives at the disk1 queue
+At time 12470, process 286 begins at the CPU
+At time 12474, process 646 arrives at the CPU queue
+At time 12479, process 35 finishes at disk2
+At time 12479, process 132 begins at disk2
+At time 12484, process 647 arrives at the CPU queue
+At time 12498, process 648 arrives at the CPU queue
+At time 12503, process 286 finishes at the CPU
+At time 12503, process 286 arrives at the disk2 queue
+At time 12503, process 287 begins at the CPU
+At time 12518, process 649 arrives at the CPU queue
+At time 12523, process 49 finishes at disk1
+At time 12523, process 181 begins at disk1
+At time 12536, process 650 arrives at the CPU queue
+At time 12552, process 651 arrives at the CPU queue
+At time 12553, process 287 finishes at the CPU
+At time 12553, process 287 arrives at the disk1 queue
+At time 12553, process 288 begins at the CPU
+At time 12580, process 652 arrives at the CPU queue
+At time 12582, process 288 finishes at the CPU
+At time 12582, process 288 arrives at the disk2 queue
+At time 12582, process 289 begins at the CPU
+At time 12594, process 653 arrives at the CPU queue
+At time 12607, process 289 finishes at the CPU
+At time 12607, process 289 exits the system
+At time 12607, process 290 begins at the CPU
+At time 12620, process 654 arrives at the CPU queue
+At time 12635, process 290 finishes at the CPU
+At time 12635, process 290 arrives at the disk1 queue
+At time 12635, process 291 begins at the CPU
+At time 12637, process 655 arrives at the CPU queue
+At time 12646, process 181 finishes at disk1
+At time 12646, process 13 begins at disk1
+At time 12658, process 291 finishes at the CPU
+At time 12658, process 656 arrives at the CPU queue
+At time 12658, process 291 arrives at the disk1 queue
+At time 12658, process 292 begins at the CPU
+At time 12673, process 657 arrives at the CPU queue
+At time 12683, process 292 finishes at the CPU
+At time 12683, process 292 exits the system
+At time 12683, process 293 begins at the CPU
+At time 12699, process 658 arrives at the CPU queue
+At time 12704, process 293 finishes at the CPU
+At time 12704, process 293 arrives at the disk1 queue
+At time 12704, process 80 begins at the CPU
+At time 12713, process 659 arrives at the CPU queue
+At time 12720, process 132 finishes at disk2
+At time 12720, process 138 begins at disk2
+At time 12742, process 660 arrives at the CPU queue
+At time 12752, process 661 arrives at the CPU queue
+At time 12754, process 13 finishes at disk1
+At time 12754, process 80 finishes at the CPU
+At time 12754, process 15 begins at disk1
+At time 12754, process 80 arrives at the disk2 queue
+At time 12754, process 294 begins at the CPU
+At time 12776, process 662 arrives at the CPU queue
+At time 12785, process 294 finishes at the CPU
+At time 12785, process 294 arrives at the disk1 queue
+At time 12785, process 295 begins at the CPU
+At time 12805, process 295 finishes at the CPU
+At time 12805, process 295 arrives at the disk2 queue
+At time 12805, process 61 begins at the CPU
+At time 12806, process 663 arrives at the CPU queue
+At time 12836, process 664 arrives at the CPU queue
+At time 12851, process 61 finishes at the CPU
+At time 12851, process 61 arrives at the disk1 queue
+At time 12851, process 296 begins at the CPU
+At time 12855, process 665 arrives at the CPU queue
+At time 12870, process 666 arrives at the CPU queue
+At time 12890, process 296 finishes at the CPU
+At time 12890, process 296 exits the system
+At time 12890, process 297 begins at the CPU
+At time 12891, process 15 finishes at disk1
+At time 12891, process 184 begins at disk1
+At time 12893, process 667 arrives at the CPU queue
+At time 12909, process 668 arrives at the CPU queue
+At time 12925, process 669 arrives at the CPU queue
+At time 12927, process 297 finishes at the CPU
+At time 12927, process 297 exits the system
+At time 12927, process 298 begins at the CPU
+At time 12939, process 670 arrives at the CPU queue
+At time 12955, process 138 finishes at disk2
+At time 12955, process 139 begins at disk2
+At time 12965, process 671 arrives at the CPU queue
+At time 12967, process 298 finishes at the CPU
+At time 12967, process 298 arrives at the disk2 queue
+At time 12967, process 299 begins at the CPU
+At time 12986, process 672 arrives at the CPU queue
+At time 13013, process 299 finishes at the CPU
+At time 13013, process 299 exits the system
+At time 13013, process 300 begins at the CPU
+At time 13014, process 184 finishes at disk1
+At time 13014, process 186 begins at disk1
+At time 13016, process 673 arrives at the CPU queue
+At time 13037, process 674 arrives at the CPU queue
+At time 13048, process 300 finishes at the CPU
+At time 13048, process 300 arrives at the disk1 queue
+At time 13048, process 301 begins at the CPU
+At time 13060, process 675 arrives at the CPU queue
+At time 13090, process 676 arrives at the CPU queue
+At time 13091, process 301 finishes at the CPU
+At time 13091, process 301 exits the system
+At time 13091, process 23 begins at the CPU
+At time 13113, process 677 arrives at the CPU queue
+At time 13115, process 186 finishes at disk1
+At time 13115, process 187 begins at disk1
+At time 13120, process 23 finishes at the CPU
+At time 13120, process 23 arrives at the disk1 queue
+At time 13120, process 302 begins at the CPU
+At time 13127, process 678 arrives at the CPU queue
+At time 13142, process 679 arrives at the CPU queue
+At time 13164, process 302 finishes at the CPU
+At time 13164, process 302 exits the system
+At time 13164, process 303 begins at the CPU
+At time 13171, process 680 arrives at the CPU queue
+At time 13192, process 681 arrives at the CPU queue
+At time 13201, process 303 finishes at the CPU
+At time 13201, process 303 arrives at the disk2 queue
+At time 13201, process 304 begins at the CPU
+At time 13222, process 682 arrives at the CPU queue
+At time 13232, process 683 arrives at the CPU queue
+At time 13249, process 139 finishes at disk2
+At time 13249, process 142 begins at disk2
+At time 13250, process 304 finishes at the CPU
+At time 13250, process 304 arrives at the disk2 queue
+At time 13250, process 305 begins at the CPU
+At time 13253, process 187 finishes at disk1
+At time 13253, process 189 begins at disk1
+At time 13261, process 684 arrives at the CPU queue
+At time 13283, process 305 finishes at the CPU
+At time 13283, process 685 arrives at the CPU queue
+At time 13283, process 305 arrives at the disk1 queue
+At time 13283, process 306 begins at the CPU
+At time 13295, process 686 arrives at the CPU queue
+At time 13315, process 687 arrives at the CPU queue
+At time 13316, process 306 finishes at the CPU
+At time 13316, process 306 arrives at the disk1 queue
+At time 13316, process 307 begins at the CPU
+At time 13328, process 688 arrives at the CPU queue
+At time 13355, process 689 arrives at the CPU queue
+At time 13356, process 307 finishes at the CPU
+At time 13356, process 307 arrives at the disk2 queue
+At time 13356, process 308 begins at the CPU
+At time 13375, process 690 arrives at the CPU queue
+At time 13387, process 691 arrives at the CPU queue
+At time 13388, process 189 finishes at disk1
+At time 13388, process 50 begins at disk1
+At time 13404, process 308 finishes at the CPU
+At time 13404, process 308 arrives at the disk1 queue
+At time 13404, process 309 begins at the CPU
+At time 13408, process 692 arrives at the CPU queue
+At time 13419, process 693 arrives at the CPU queue
+At time 13438, process 309 finishes at the CPU
+At time 13438, process 309 arrives at the disk1 queue
+At time 13438, process 85 begins at the CPU
+At time 13440, process 694 arrives at the CPU queue
+At time 13465, process 85 finishes at the CPU
+At time 13465, process 85 arrives at the disk1 queue
+At time 13465, process 310 begins at the CPU
+At time 13467, process 695 arrives at the CPU queue
+At time 13489, process 696 arrives at the CPU queue
+At time 13504, process 310 finishes at the CPU
+At time 13504, process 310 exits the system
+At time 13504, process 311 begins at the CPU
+At time 13511, process 697 arrives at the CPU queue
+At time 13520, process 142 finishes at disk2
+At time 13520, process 143 begins at disk2
+At time 13524, process 698 arrives at the CPU queue
+At time 13531, process 311 finishes at the CPU
+At time 13531, process 311 arrives at the disk2 queue
+At time 13531, process 312 begins at the CPU
+At time 13538, process 50 finishes at disk1
+At time 13538, process 38 begins at disk1
+At time 13542, process 699 arrives at the CPU queue
+At time 13559, process 312 finishes at the CPU
+At time 13559, process 312 arrives at the disk2 queue
+At time 13559, process 64 begins at the CPU
+At time 13568, process 700 arrives at the CPU queue
+At time 13592, process 701 arrives at the CPU queue
+At time 13598, process 64 finishes at the CPU
+At time 13598, process 64 arrives at the disk1 queue
+At time 13598, process 313 begins at the CPU
+At time 13617, process 702 arrives at the CPU queue
+At time 13627, process 703 arrives at the CPU queue
+At time 13643, process 38 finishes at disk1
+At time 13643, process 193 begins at disk1
+At time 13644, process 313 finishes at the CPU
+At time 13644, process 313 arrives at the disk1 queue
+At time 13644, process 314 begins at the CPU
+At time 13645, process 704 arrives at the CPU queue
+At time 13659, process 705 arrives at the CPU queue
+At time 13687, process 706 arrives at the CPU queue
+At time 13693, process 314 finishes at the CPU
+At time 13693, process 314 arrives at the disk1 queue
+At time 13693, process 315 begins at the CPU
+At time 13702, process 707 arrives at the CPU queue
+At time 13712, process 708 arrives at the CPU queue
+At time 13728, process 709 arrives at the CPU queue
+At time 13734, process 315 finishes at the CPU
+At time 13734, process 315 arrives at the disk2 queue
+At time 13734, process 316 begins at the CPU
+At time 13741, process 710 arrives at the CPU queue
+At time 13745, process 193 finishes at disk1
+At time 13745, process 195 begins at disk1
+At time 13752, process 711 arrives at the CPU queue
+At time 13772, process 143 finishes at disk2
+At time 13772, process 145 begins at disk2
+At time 13779, process 316 finishes at the CPU
+At time 13779, process 316 arrives at the disk2 queue
+At time 13779, process 317 begins at the CPU
+At time 13782, process 712 arrives at the CPU queue
+At time 13800, process 713 arrives at the CPU queue
+At time 13814, process 317 finishes at the CPU
+At time 13814, process 317 exits the system
+At time 13814, process 88 begins at the CPU
+At time 13826, process 714 arrives at the CPU queue
+At time 13845, process 715 arrives at the CPU queue
+At time 13853, process 88 finishes at the CPU
+At time 13853, process 88 arrives at the disk1 queue
+At time 13853, process 318 begins at the CPU
+At time 13864, process 716 arrives at the CPU queue
+At time 13870, process 195 finishes at disk1
+At time 13870, process 196 begins at disk1
+At time 13876, process 717 arrives at the CPU queue
+At time 13891, process 718 arrives at the CPU queue
+At time 13892, process 318 finishes at the CPU
+At time 13892, process 318 arrives at the disk1 queue
+At time 13892, process 319 begins at the CPU
+At time 13917, process 719 arrives at the CPU queue
+At time 13933, process 319 finishes at the CPU
+At time 13933, process 319 arrives at the disk2 queue
+At time 13933, process 320 begins at the CPU
+At time 13945, process 720 arrives at the CPU queue
+At time 13960, process 320 finishes at the CPU
+At time 13960, process 320 exits the system
+At time 13960, process 321 begins at the CPU
+At time 13974, process 721 arrives at the CPU queue
+At time 13975, process 145 finishes at disk2
+At time 13975, process 149 begins at disk2
+At time 13992, process 722 arrives at the CPU queue
+At time 13996, process 196 finishes at disk1
+At time 13996, process 200 begins at disk1
+At time 14000, process 321 finishes at the CPU
+At time 14000, process 321 arrives at the disk1 queue
+At time 14000, process 322 begins at the CPU
+At time 14003, process 723 arrives at the CPU queue
+At time 14028, process 724 arrives at the CPU queue
+At time 14038, process 322 finishes at the CPU
+At time 14038, process 322 exits the system
+At time 14038, process 323 begins at the CPU
+At time 14052, process 725 arrives at the CPU queue
+At time 14082, process 726 arrives at the CPU queue
+At time 14086, process 323 finishes at the CPU
+At time 14086, process 323 arrives at the disk2 queue
+At time 14086, process 89 begins at the CPU
+At time 14095, process 727 arrives at the CPU queue
+At time 14116, process 89 finishes at the CPU
+At time 14116, process 728 arrives at the CPU queue
+At time 14116, process 89 arrives at the disk1 queue
+At time 14116, process 324 begins at the CPU
+At time 14129, process 729 arrives at the CPU queue
+At time 14136, process 200 finishes at disk1
+At time 14136, process 202 begins at disk1
+At time 14154, process 730 arrives at the CPU queue
+At time 14160, process 324 finishes at the CPU
+At time 14160, process 324 arrives at the disk1 queue
+At time 14160, process 325 begins at the CPU
+At time 14179, process 731 arrives at the CPU queue
+At time 14196, process 149 finishes at disk2
+At time 14196, process 41 begins at disk2
+At time 14199, process 325 finishes at the CPU
+At time 14199, process 325 arrives at the disk2 queue
+At time 14199, process 16 begins at the CPU
+At time 14207, process 732 arrives at the CPU queue
+At time 14230, process 733 arrives at the CPU queue
+At time 14237, process 202 finishes at disk1
+At time 14237, process 203 begins at disk1
+At time 14245, process 16 finishes at the CPU
+At time 14245, process 16 arrives at the disk1 queue
+At time 14245, process 326 begins at the CPU
+At time 14255, process 734 arrives at the CPU queue
+At time 14281, process 735 arrives at the CPU queue
+At time 14283, process 326 finishes at the CPU
+At time 14283, process 326 exits the system
+At time 14283, process 327 begins at the CPU
+At time 14299, process 736 arrives at the CPU queue
+At time 14314, process 327 finishes at the CPU
+At time 14314, process 327 arrives at the disk2 queue
+At time 14314, process 328 begins at the CPU
+At time 14315, process 737 arrives at the CPU queue
+At time 14336, process 738 arrives at the CPU queue
+At time 14352, process 739 arrives at the CPU queue
+At time 14355, process 328 finishes at the CPU
+At time 14355, process 328 exits the system
+At time 14355, process 329 begins at the CPU
+At time 14363, process 740 arrives at the CPU queue
+At time 14377, process 329 finishes at the CPU
+At time 14377, process 329 exits the system
+At time 14377, process 91 begins at the CPU
+At time 14386, process 203 finishes at disk1
+At time 14386, process 7 begins at disk1
+At time 14392, process 741 arrives at the CPU queue
+At time 14405, process 41 finishes at disk2
+At time 14405, process 151 begins at disk2
+At time 14411, process 91 finishes at the CPU
+At time 14411, process 91 arrives at the disk1 queue
+At time 14411, process 330 begins at the CPU
+At time 14419, process 742 arrives at the CPU queue
+At time 14437, process 743 arrives at the CPU queue
+At time 14438, process 330 finishes at the CPU
+At time 14438, process 330 exits the system
+At time 14438, process 331 begins at the CPU
+At time 14458, process 744 arrives at the CPU queue
+At time 14479, process 331 finishes at the CPU
+At time 14479, process 331 arrives at the disk2 queue
+At time 14479, process 332 begins at the CPU
+At time 14488, process 745 arrives at the CPU queue
+At time 14493, process 7 finishes at disk1
+At time 14493, process 206 begins at disk1
+At time 14498, process 746 arrives at the CPU queue
+At time 14523, process 747 arrives at the CPU queue
+At time 14527, process 332 finishes at the CPU
+At time 14527, process 332 arrives at the disk1 queue
+At time 14527, process 333 begins at the CPU
+At time 14543, process 748 arrives at the CPU queue
+At time 14556, process 749 arrives at the CPU queue
+At time 14562, process 333 finishes at the CPU
+At time 14562, process 333 exits the system
+At time 14562, process 334 begins at the CPU
+At time 14572, process 750 arrives at the CPU queue
+At time 14588, process 334 finishes at the CPU
+At time 14588, process 334 arrives at the disk1 queue
+At time 14588, process 335 begins at the CPU
+At time 14590, process 751 arrives at the CPU queue
+At time 14606, process 752 arrives at the CPU queue
+At time 14614, process 206 finishes at disk1
+At time 14614, process 207 begins at disk1
+At time 14633, process 335 finishes at the CPU
+At time 14633, process 753 arrives at the CPU queue
+At time 14633, process 335 arrives at the disk1 queue
+At time 14633, process 336 begins at the CPU
+At time 14637, process 151 finishes at disk2
+At time 14637, process 156 begins at disk2
+At time 14645, process 754 arrives at the CPU queue
+At time 14663, process 755 arrives at the CPU queue
+At time 14673, process 336 finishes at the CPU
+At time 14673, process 336 arrives at the disk2 queue
+At time 14673, process 337 begins at the CPU
+At time 14674, process 756 arrives at the CPU queue
+At time 14699, process 757 arrives at the CPU queue
+At time 14713, process 758 arrives at the CPU queue
+At time 14715, process 337 finishes at the CPU
+At time 14715, process 337 arrives at the disk1 queue
+At time 14715, process 93 begins at the CPU
+At time 14736, process 759 arrives at the CPU queue
+At time 14745, process 93 finishes at the CPU
+At time 14745, process 93 arrives at the disk2 queue
+At time 14745, process 338 begins at the CPU
+At time 14748, process 207 finishes at disk1
+At time 14748, process 209 begins at disk1
+At time 14756, process 760 arrives at the CPU queue
+At time 14770, process 761 arrives at the CPU queue
+At time 14771, process 338 finishes at the CPU
+At time 14771, process 338 arrives at the disk1 queue
+At time 14771, process 339 begins at the CPU
+At time 14789, process 762 arrives at the CPU queue
+At time 14807, process 763 arrives at the CPU queue
+At time 14814, process 339 finishes at the CPU
+At time 14814, process 339 exits the system
+At time 14814, process 340 begins at the CPU
+At time 14835, process 764 arrives at the CPU queue
+At time 14852, process 340 finishes at the CPU
+At time 14852, process 340 arrives at the disk2 queue
+At time 14852, process 341 begins at the CPU
+At time 14860, process 209 finishes at disk1
+At time 14860, process 210 begins at disk1
+At time 14862, process 765 arrives at the CPU queue
+At time 14879, process 766 arrives at the CPU queue
+At time 14901, process 341 finishes at the CPU
+At time 14901, process 341 exits the system
+At time 14901, process 69 begins at the CPU
+At time 14909, process 767 arrives at the CPU queue
+At time 14919, process 768 arrives at the CPU queue
+At time 14921, process 69 finishes at the CPU
+At time 14921, process 69 arrives at the disk1 queue
+At time 14921, process 342 begins at the CPU
+At time 14923, process 156 finishes at disk2
+At time 14923, process 42 begins at disk2
+At time 14941, process 769 arrives at the CPU queue
+At time 14941, process 342 finishes at the CPU
+At time 14941, process 342 arrives at the disk1 queue
+At time 14941, process 343 begins at the CPU
+At time 14971, process 770 arrives at the CPU queue
+At time 14972, process 343 finishes at the CPU
+At time 14972, process 343 arrives at the disk2 queue
+At time 14972, process 344 begins at the CPU
+At time 14987, process 210 finishes at disk1
+At time 14987, process 213 begins at disk1
+At time 14993, process 344 finishes at the CPU
+At time 14993, process 344 arrives at the disk1 queue
+At time 14993, process 95 begins at the CPU
+At time 14999, process 771 arrives at the CPU queue
+At time 15020, process 772 arrives at the CPU queue
+At time 15030, process 95 finishes at the CPU
+At time 15030, process 95 arrives at the disk1 queue
+At time 15030, process 345 begins at the CPU
+At time 15042, process 773 arrives at the CPU queue
+At time 15053, process 345 finishes at the CPU
+At time 15053, process 345 arrives at the disk2 queue
+At time 15053, process 346 begins at the CPU
+At time 15069, process 774 arrives at the CPU queue
+At time 15079, process 775 arrives at the CPU queue
+At time 15092, process 776 arrives at the CPU queue
+At time 15102, process 346 finishes at the CPU
+At time 15102, process 346 arrives at the disk1 queue
+At time 15102, process 347 begins at the CPU
+At time 15105, process 213 finishes at disk1
+At time 15105, process 60 begins at disk1
+At time 15120, process 777 arrives at the CPU queue
+At time 15132, process 778 arrives at the CPU queue
+At time 15139, process 347 finishes at the CPU
+At time 15139, process 347 arrives at the disk2 queue
+At time 15139, process 348 begins at the CPU
+At time 15142, process 779 arrives at the CPU queue
+At time 15159, process 780 arrives at the CPU queue
+At time 15174, process 348 finishes at the CPU
+At time 15174, process 348 arrives at the disk1 queue
+At time 15174, process 349 begins at the CPU
+At time 15182, process 781 arrives at the CPU queue
+At time 15196, process 349 finishes at the CPU
+At time 15196, process 349 arrives at the disk2 queue
+At time 15196, process 350 begins at the CPU
+At time 15205, process 42 finishes at disk2
+At time 15205, process 159 begins at disk2
+At time 15207, process 782 arrives at the CPU queue
+At time 15230, process 60 finishes at disk1
+At time 15230, process 215 begins at disk1
+At time 15231, process 783 arrives at the CPU queue
+At time 15241, process 350 finishes at the CPU
+At time 15241, process 350 exits the system
+At time 15241, process 96 begins at the CPU
+At time 15246, process 784 arrives at the CPU queue
+At time 15257, process 785 arrives at the CPU queue
+At time 15269, process 96 finishes at the CPU
+At time 15269, process 96 arrives at the disk1 queue
+At time 15269, process 351 begins at the CPU
+At time 15281, process 786 arrives at the CPU queue
+At time 15295, process 787 arrives at the CPU queue
+At time 15309, process 351 finishes at the CPU
+At time 15309, process 351 arrives at the disk1 queue
+At time 15309, process 352 begins at the CPU
+At time 15322, process 788 arrives at the CPU queue
+At time 15334, process 789 arrives at the CPU queue
+At time 15345, process 352 finishes at the CPU
+At time 15345, process 352 arrives at the disk2 queue
+At time 15345, process 73 begins at the CPU
+At time 15356, process 790 arrives at the CPU queue
+At time 15364, process 215 finishes at disk1
+At time 15364, process 216 begins at disk1
+At time 15371, process 791 arrives at the CPU queue
+At time 15385, process 73 finishes at the CPU
+At time 15385, process 73 arrives at the disk1 queue
+At time 15385, process 353 begins at the CPU
+At time 15394, process 792 arrives at the CPU queue
+At time 15409, process 793 arrives at the CPU queue
+At time 15414, process 353 finishes at the CPU
+At time 15414, process 353 arrives at the disk2 queue
+At time 15414, process 354 begins at the CPU
+At time 15432, process 794 arrives at the CPU queue
+At time 15436, process 159 finishes at disk2
+At time 15436, process 161 begins at disk2
+At time 15454, process 354 finishes at the CPU
+At time 15454, process 354 arrives at the disk1 queue
+At time 15454, process 355 begins at the CPU
+At time 15456, process 795 arrives at the CPU queue
+At time 15471, process 796 arrives at the CPU queue
+At time 15475, process 216 finishes at disk1
+At time 15475, process 43 begins at disk1
+At time 15484, process 355 finishes at the CPU
+At time 15484, process 355 exits the system
+At time 15484, process 356 begins at the CPU
+At time 15501, process 797 arrives at the CPU queue
+At time 15511, process 356 finishes at the CPU
+At time 15511, process 356 arrives at the disk2 queue
+At time 15511, process 25 begins at the CPU
+At time 15524, process 798 arrives at the CPU queue
+At time 15538, process 25 finishes at the CPU
+At time 15538, process 25 arrives at the disk1 queue
+At time 15538, process 357 begins at the CPU
+At time 15545, process 799 arrives at the CPU queue
+At time 15555, process 800 arrives at the CPU queue
+At time 15577, process 357 finishes at the CPU
+At time 15577, process 801 arrives at the CPU queue
+At time 15577, process 357 arrives at the disk2 queue
+At time 15577, process 358 begins at the CPU
+At time 15596, process 43 finishes at disk1
+At time 15596, process 218 begins at disk1
+At time 15598, process 802 arrives at the CPU queue
+At time 15600, process 358 finishes at the CPU
+At time 15600, process 358 arrives at the disk1 queue
+At time 15600, process 359 begins at the CPU
+At time 15615, process 803 arrives at the CPU queue
+At time 15632, process 359 finishes at the CPU
+At time 15632, process 359 arrives at the disk1 queue
+At time 15632, process 360 begins at the CPU
+At time 15642, process 804 arrives at the CPU queue
+At time 15660, process 360 finishes at the CPU
+At time 15660, process 805 arrives at the CPU queue
+At time 15660, process 360 arrives at the disk2 queue
+At time 15660, process 361 begins at the CPU
+At time 15679, process 806 arrives at the CPU queue
+At time 15705, process 161 finishes at disk2
+At time 15705, process 807 arrives at the CPU queue
+At time 15705, process 164 begins at disk2
+At time 15710, process 361 finishes at the CPU
+At time 15710, process 361 arrives at the disk2 queue
+At time 15710, process 362 begins at the CPU
+At time 15718, process 808 arrives at the CPU queue
+At time 15735, process 218 finishes at disk1
+At time 15735, process 220 begins at disk1
+At time 15748, process 362 finishes at the CPU
+At time 15748, process 809 arrives at the CPU queue
+At time 15748, process 362 arrives at the disk1 queue
+At time 15748, process 20 begins at the CPU
+At time 15768, process 810 arrives at the CPU queue
+At time 15774, process 20 finishes at the CPU
+At time 15774, process 20 arrives at the disk1 queue
+At time 15774, process 363 begins at the CPU
+At time 15795, process 811 arrives at the CPU queue
+At time 15813, process 812 arrives at the CPU queue
+At time 15818, process 363 finishes at the CPU
+At time 15818, process 363 exits the system
+At time 15818, process 76 begins at the CPU
+At time 15827, process 813 arrives at the CPU queue
+At time 15844, process 220 finishes at disk1
+At time 15844, process 62 begins at disk1
+At time 15853, process 76 finishes at the CPU
+At time 15853, process 814 arrives at the CPU queue
+At time 15853, process 76 arrives at the disk1 queue
+At time 15853, process 364 begins at the CPU
+At time 15870, process 815 arrives at the CPU queue
+At time 15883, process 816 arrives at the CPU queue
+At time 15896, process 364 finishes at the CPU
+At time 15896, process 364 arrives at the disk2 queue
+At time 15896, process 365 begins at the CPU
+At time 15912, process 817 arrives at the CPU queue
+At time 15920, process 365 finishes at the CPU
+At time 15920, process 365 arrives at the disk1 queue
+At time 15920, process 366 begins at the CPU
+At time 15922, process 818 arrives at the CPU queue
+At time 15949, process 819 arrives at the CPU queue
+At time 15960, process 366 finishes at the CPU
+At time 15960, process 366 arrives at the disk1 queue
+At time 15960, process 367 begins at the CPU
+At time 15966, process 820 arrives at the CPU queue
+At time 15972, process 62 finishes at disk1
+At time 15972, process 222 begins at disk1
+At time 15979, process 821 arrives at the CPU queue
+At time 15988, process 164 finishes at disk2
+At time 15988, process 166 begins at disk2
+At time 15997, process 367 finishes at the CPU
+At time 15997, process 367 arrives at the disk2 queue
+At time 15997, process 368 begins at the CPU
+At time 16008, process 822 arrives at the CPU queue
+At time 16028, process 368 finishes at the CPU
+At time 16028, process 368 exits the system
+At time 16028, process 369 begins at the CPU
+At time 16031, process 823 arrives at the CPU queue
+At time 16041, process 824 arrives at the CPU queue
+At time 16051, process 825 arrives at the CPU queue
+At time 16077, process 369 finishes at the CPU
+At time 16077, process 826 arrives at the CPU queue
+At time 16077, process 369 arrives at the disk1 queue
+At time 16077, process 102 begins at the CPU
+At time 16088, process 827 arrives at the CPU queue
+At time 16103, process 102 finishes at the CPU
+At time 16103, process 102 exits the system
+At time 16103, process 370 begins at the CPU
+At time 16112, process 828 arrives at the CPU queue
+At time 16113, process 222 finishes at disk1
+At time 16113, process 226 begins at disk1
+At time 16128, process 829 arrives at the CPU queue
+At time 16135, process 370 finishes at the CPU
+At time 16135, process 370 arrives at the disk2 queue
+At time 16135, process 371 begins at the CPU
+At time 16148, process 830 arrives at the CPU queue
+At time 16159, process 831 arrives at the CPU queue
+At time 16177, process 832 arrives at the CPU queue
+At time 16183, process 371 finishes at the CPU
+At time 16183, process 371 arrives at the disk1 queue
+At time 16183, process 372 begins at the CPU
+At time 16197, process 833 arrives at the CPU queue
+At time 16216, process 834 arrives at the CPU queue
+At time 16221, process 372 finishes at the CPU
+At time 16221, process 372 exits the system
+At time 16221, process 373 begins at the CPU
+At time 16237, process 835 arrives at the CPU queue
+At time 16247, process 373 finishes at the CPU
+At time 16247, process 373 exits the system
+At time 16247, process 374 begins at the CPU
+At time 16253, process 226 finishes at disk1
+At time 16253, process 227 begins at disk1
+At time 16259, process 836 arrives at the CPU queue
+At time 16269, process 166 finishes at disk2
+At time 16269, process 171 begins at disk2
+At time 16278, process 837 arrives at the CPU queue
+At time 16289, process 374 finishes at the CPU
+At time 16289, process 374 arrives at the disk2 queue
+At time 16289, process 375 begins at the CPU
+At time 16291, process 838 arrives at the CPU queue
+At time 16301, process 839 arrives at the CPU queue
+At time 16315, process 840 arrives at the CPU queue
+At time 16322, process 375 finishes at the CPU
+At time 16322, process 375 arrives at the disk1 queue
+At time 16322, process 27 begins at the CPU
+At time 16325, process 841 arrives at the CPU queue
+At time 16337, process 842 arrives at the CPU queue
+At time 16350, process 843 arrives at the CPU queue
+At time 16366, process 27 finishes at the CPU
+At time 16366, process 27 arrives at the disk2 queue
+At time 16366, process 376 begins at the CPU
+At time 16368, process 844 arrives at the CPU queue
+At time 16391, process 227 finishes at disk1
+At time 16391, process 46 begins at disk1
+At time 16393, process 845 arrives at the CPU queue
+At time 16404, process 376 finishes at the CPU
+At time 16404, process 376 arrives at the disk1 queue
+At time 16404, process 21 begins at the CPU
+At time 16422, process 846 arrives at the CPU queue
+At time 16427, process 21 finishes at the CPU
+At time 16427, process 21 arrives at the disk1 queue
+At time 16427, process 377 begins at the CPU
+At time 16440, process 847 arrives at the CPU queue
+At time 16457, process 377 finishes at the CPU
+At time 16457, process 377 arrives at the disk2 queue
+At time 16457, process 378 begins at the CPU
+At time 16461, process 848 arrives at the CPU queue
+At time 16473, process 171 finishes at disk2
+At time 16473, process 31 begins at disk2
+At time 16478, process 849 arrives at the CPU queue
+At time 16492, process 378 finishes at the CPU
+At time 16492, process 378 arrives at the disk2 queue
+At time 16492, process 379 begins at the CPU
+At time 16493, process 850 arrives at the CPU queue
+At time 16512, process 851 arrives at the CPU queue
+At time 16515, process 379 finishes at the CPU
+At time 16515, process 379 arrives at the disk1 queue
+At time 16515, process 380 begins at the CPU
+At time 16529, process 46 finishes at disk1
+At time 16529, process 230 begins at disk1
+At time 16530, process 852 arrives at the CPU queue
+At time 16549, process 380 finishes at the CPU
+At time 16549, process 380 arrives at the disk1 queue
+At time 16549, process 104 begins at the CPU
+At time 16557, process 853 arrives at the CPU queue
+At time 16575, process 854 arrives at the CPU queue
+At time 16587, process 104 finishes at the CPU
+At time 16587, process 104 exits the system
+At time 16587, process 381 begins at the CPU
+At time 16604, process 855 arrives at the CPU queue
+At time 16618, process 856 arrives at the CPU queue
+At time 16627, process 381 finishes at the CPU
+At time 16627, process 381 arrives at the disk2 queue
+At time 16627, process 382 begins at the CPU
+At time 16638, process 857 arrives at the CPU queue
+At time 16653, process 382 finishes at the CPU
+At time 16653, process 382 arrives at the disk1 queue
+At time 16653, process 383 begins at the CPU
+At time 16666, process 858 arrives at the CPU queue
+At time 16674, process 230 finishes at disk1
+At time 16674, process 232 begins at disk1
+At time 16684, process 383 finishes at the CPU
+At time 16684, process 383 arrives at the disk1 queue
+At time 16684, process 384 begins at the CPU
+At time 16691, process 859 arrives at the CPU queue
+At time 16711, process 860 arrives at the CPU queue
+At time 16722, process 384 finishes at the CPU
+At time 16722, process 384 arrives at the disk1 queue
+At time 16722, process 385 begins at the CPU
+At time 16726, process 861 arrives at the CPU queue
+At time 16753, process 862 arrives at the CPU queue
+At time 16764, process 385 finishes at the CPU
+At time 16764, process 385 arrives at the disk2 queue
+At time 16764, process 386 begins at the CPU
+At time 16767, process 31 finishes at disk2
+At time 16767, process 174 begins at disk2
+At time 16775, process 863 arrives at the CPU queue
+At time 16791, process 864 arrives at the CPU queue
+At time 16801, process 386 finishes at the CPU
+At time 16801, process 386 arrives at the disk2 queue
+At time 16801, process 107 begins at the CPU
+At time 16807, process 232 finishes at disk1
+At time 16807, process 65 begins at disk1
+At time 16818, process 865 arrives at the CPU queue
+At time 16839, process 107 finishes at the CPU
+At time 16839, process 107 arrives at the disk1 queue
+At time 16839, process 387 begins at the CPU
+At time 16840, process 866 arrives at the CPU queue
+At time 16852, process 867 arrives at the CPU queue
+At time 16861, process 387 finishes at the CPU
+At time 16861, process 387 arrives at the disk1 queue
+At time 16861, process 79 begins at the CPU
+At time 16868, process 868 arrives at the CPU queue
+At time 16881, process 869 arrives at the CPU queue
+At time 16883, process 79 finishes at the CPU
+At time 16883, process 79 arrives at the disk2 queue
+At time 16883, process 388 begins at the CPU
+At time 16906, process 870 arrives at the CPU queue
+At time 16924, process 388 finishes at the CPU
+At time 16924, process 871 arrives at the CPU queue
+At time 16924, process 388 arrives at the disk1 queue
+At time 16924, process 389 begins at the CPU
+At time 16928, process 65 finishes at disk1
+At time 16928, process 234 begins at disk1
+At time 16934, process 872 arrives at the CPU queue
+At time 16949, process 389 finishes at the CPU
+At time 16949, process 389 exits the system
+At time 16949, process 390 begins at the CPU
+At time 16960, process 873 arrives at the CPU queue
+At time 16975, process 874 arrives at the CPU queue
+At time 16992, process 390 finishes at the CPU
+At time 16992, process 390 arrives at the disk1 queue
+At time 16992, process 391 begins at the CPU
+At time 17000, process 875 arrives at the CPU queue
+At time 17019, process 391 finishes at the CPU
+At time 17019, process 391 arrives at the disk2 queue
+At time 17019, process 392 begins at the CPU
+At time 17022, process 876 arrives at the CPU queue
+At time 17031, process 174 finishes at disk2
+At time 17031, process 177 begins at disk2
+At time 17047, process 877 arrives at the CPU queue
+At time 17051, process 392 finishes at the CPU
+At time 17051, process 392 exits the system
+At time 17051, process 393 begins at the CPU
+At time 17057, process 878 arrives at the CPU queue
+At time 17064, process 234 finishes at disk1
+At time 17064, process 237 begins at disk1
+At time 17073, process 879 arrives at the CPU queue
+At time 17079, process 393 finishes at the CPU
+At time 17079, process 393 arrives at the disk2 queue
+At time 17079, process 394 begins at the CPU
+At time 17096, process 880 arrives at the CPU queue
+At time 17105, process 394 finishes at the CPU
+At time 17105, process 394 arrives at the disk1 queue
+At time 17105, process 108 begins at the CPU
+At time 17118, process 881 arrives at the CPU queue
+At time 17135, process 108 finishes at the CPU
+At time 17135, process 882 arrives at the CPU queue
+At time 17135, process 108 arrives at the disk2 queue
+At time 17135, process 395 begins at the CPU
+At time 17157, process 883 arrives at the CPU queue
+At time 17163, process 395 finishes at the CPU
+At time 17163, process 395 arrives at the disk1 queue
+At time 17163, process 396 begins at the CPU
+At time 17171, process 237 finishes at disk1
+At time 17171, process 66 begins at disk1
+At time 17183, process 884 arrives at the CPU queue
+At time 17189, process 396 finishes at the CPU
+At time 17189, process 396 arrives at the disk1 queue
+At time 17189, process 397 begins at the CPU
+At time 17193, process 885 arrives at the CPU queue
+At time 17222, process 886 arrives at the CPU queue
+At time 17239, process 397 finishes at the CPU
+At time 17239, process 397 arrives at the disk2 queue
+At time 17239, process 398 begins at the CPU
+At time 17241, process 887 arrives at the CPU queue
+At time 17269, process 888 arrives at the CPU queue
+At time 17271, process 398 finishes at the CPU
+At time 17271, process 398 exits the system
+At time 17271, process 399 begins at the CPU
+At time 17277, process 66 finishes at disk1
+At time 17277, process 240 begins at disk1
+At time 17295, process 889 arrives at the CPU queue
+At time 17307, process 399 finishes at the CPU
+At time 17307, process 399 arrives at the disk1 queue
+At time 17307, process 400 begins at the CPU
+At time 17314, process 177 finishes at disk2
+At time 17314, process 890 arrives at the CPU queue
+At time 17314, process 179 begins at disk2
+At time 17329, process 400 finishes at the CPU
+At time 17329, process 400 arrives at the disk1 queue
+At time 17329, process 401 begins at the CPU
+At time 17332, process 891 arrives at the CPU queue
+At time 17342, process 892 arrives at the CPU queue
+At time 17355, process 893 arrives at the CPU queue
+At time 17373, process 894 arrives at the CPU queue
+At time 17379, process 401 finishes at the CPU
+At time 17379, process 401 exits the system
+At time 17379, process 402 begins at the CPU
+At time 17381, process 240 finishes at disk1
+At time 17381, process 241 begins at disk1
+At time 17392, process 895 arrives at the CPU queue
+At time 17406, process 896 arrives at the CPU queue
+At time 17415, process 402 finishes at the CPU
+At time 17415, process 402 arrives at the disk2 queue
+At time 17415, process 28 begins at the CPU
+At time 17424, process 897 arrives at the CPU queue
+At time 17448, process 898 arrives at the CPU queue
+At time 17452, process 28 finishes at the CPU
+At time 17452, process 28 arrives at the disk1 queue
+At time 17452, process 403 begins at the CPU
+At time 17470, process 899 arrives at the CPU queue
+At time 17474, process 403 finishes at the CPU
+At time 17474, process 403 arrives at the disk1 queue
+At time 17474, process 404 begins at the CPU
+At time 17482, process 241 finishes at disk1
+At time 17482, process 245 begins at disk1
+At time 17494, process 900 arrives at the CPU queue
+At time 17515, process 901 arrives at the CPU queue
+At time 17518, process 404 finishes at the CPU
+At time 17518, process 404 arrives at the disk1 queue
+At time 17518, process 405 begins at the CPU
+At time 17536, process 902 arrives at the CPU queue
+At time 17541, process 179 finishes at disk2
+At time 17541, process 180 begins at disk2
+At time 17556, process 405 finishes at the CPU
+At time 17556, process 405 arrives at the disk2 queue
+At time 17556, process 82 begins at the CPU
+At time 17560, process 903 arrives at the CPU queue
+At time 17583, process 904 arrives at the CPU queue
+At time 17584, process 82 finishes at the CPU
+At time 17584, process 82 arrives at the disk2 queue
+At time 17584, process 406 begins at the CPU
+At time 17593, process 245 finishes at disk1
+At time 17593, process 67 begins at disk1
+At time 17610, process 905 arrives at the CPU queue
+At time 17622, process 406 finishes at the CPU
+At time 17622, process 406 exits the system
+At time 17622, process 407 begins at the CPU
+At time 17633, process 906 arrives at the CPU queue
+At time 17650, process 907 arrives at the CPU queue
+At time 17651, process 407 finishes at the CPU
+At time 17651, process 407 arrives at the disk1 queue
+At time 17651, process 408 begins at the CPU
+At time 17660, process 908 arrives at the CPU queue
+At time 17678, process 909 arrives at the CPU queue
+At time 17689, process 910 arrives at the CPU queue
+At time 17696, process 408 finishes at the CPU
+At time 17696, process 408 arrives at the disk1 queue
+At time 17696, process 409 begins at the CPU
+At time 17699, process 911 arrives at the CPU queue
+At time 17722, process 409 finishes at the CPU
+At time 17722, process 409 arrives at the disk2 queue
+At time 17722, process 112 begins at the CPU
+At time 17723, process 912 arrives at the CPU queue
+At time 17738, process 913 arrives at the CPU queue
+At time 17740, process 67 finishes at disk1
+At time 17740, process 249 begins at disk1
+At time 17745, process 180 finishes at disk2
+At time 17745, process 183 begins at disk2
+At time 17746, process 112 finishes at the CPU
+At time 17746, process 112 exits the system
+At time 17746, process 410 begins at the CPU
+At time 17764, process 914 arrives at the CPU queue
+At time 17778, process 915 arrives at the CPU queue
+At time 17791, process 410 finishes at the CPU
+At time 17791, process 410 arrives at the disk1 queue
+At time 17791, process 411 begins at the CPU
+At time 17806, process 916 arrives at the CPU queue
+At time 17819, process 917 arrives at the CPU queue
+At time 17836, process 411 finishes at the CPU
+At time 17836, process 411 arrives at the disk2 queue
+At time 17836, process 412 begins at the CPU
+At time 17837, process 918 arrives at the CPU queue
+At time 17841, process 249 finishes at disk1
+At time 17841, process 251 begins at disk1
+At time 17854, process 919 arrives at the CPU queue
+At time 17869, process 412 finishes at the CPU
+At time 17869, process 412 arrives at the disk1 queue
+At time 17869, process 413 begins at the CPU
+At time 17873, process 920 arrives at the CPU queue
+At time 17883, process 921 arrives at the CPU queue
+At time 17905, process 922 arrives at the CPU queue
+At time 17916, process 413 finishes at the CPU
+At time 17916, process 413 arrives at the disk2 queue
+At time 17916, process 414 begins at the CPU
+At time 17920, process 923 arrives at the CPU queue
+At time 17940, process 414 finishes at the CPU
+At time 17940, process 414 exits the system
+At time 17940, process 415 begins at the CPU
+At time 17949, process 924 arrives at the CPU queue
+At time 17968, process 183 finishes at disk2
+At time 17968, process 185 begins at disk2
+At time 17973, process 925 arrives at the CPU queue
+At time 17979, process 251 finishes at disk1
+At time 17979, process 415 finishes at the CPU
+At time 17979, process 52 begins at disk1
+At time 17979, process 415 exits the system
+At time 17979, process 416 begins at the CPU
+At time 17994, process 926 arrives at the CPU queue
+At time 18009, process 416 finishes at the CPU
+At time 18009, process 416 arrives at the disk1 queue
+At time 18009, process 113 begins at the CPU
+At time 18014, process 927 arrives at the CPU queue
+At time 18031, process 928 arrives at the CPU queue
+At time 18053, process 929 arrives at the CPU queue
+At time 18055, process 113 finishes at the CPU
+At time 18055, process 113 arrives at the disk2 queue
+At time 18055, process 417 begins at the CPU
+At time 18070, process 930 arrives at the CPU queue
+At time 18075, process 417 finishes at the CPU
+At time 18075, process 417 arrives at the disk1 queue
+At time 18075, process 418 begins at the CPU
+At time 18080, process 931 arrives at the CPU queue
+At time 18096, process 932 arrives at the CPU queue
+At time 18097, process 52 finishes at disk1
+At time 18097, process 70 begins at disk1
+At time 18113, process 933 arrives at the CPU queue
+At time 18118, process 418 finishes at the CPU
+At time 18118, process 418 arrives at the disk1 queue
+At time 18118, process 419 begins at the CPU
+At time 18141, process 934 arrives at the CPU queue
+At time 18157, process 935 arrives at the CPU queue
+At time 18159, process 419 finishes at the CPU
+At time 18159, process 419 arrives at the disk2 queue
+At time 18159, process 420 begins at the CPU
+At time 18171, process 936 arrives at the CPU queue
+At time 18173, process 185 finishes at disk2
+At time 18173, process 188 begins at disk2
+At time 18198, process 937 arrives at the CPU queue
+At time 18199, process 420 finishes at the CPU
+At time 18199, process 420 exits the system
+At time 18199, process 421 begins at the CPU
+At time 18202, process 70 finishes at disk1
+At time 18202, process 256 begins at disk1
+At time 18209, process 938 arrives at the CPU queue
+At time 18222, process 939 arrives at the CPU queue
+At time 18225, process 421 finishes at the CPU
+At time 18225, process 421 exits the system
+At time 18225, process 87 begins at the CPU
+At time 18241, process 940 arrives at the CPU queue
+At time 18258, process 941 arrives at the CPU queue
+At time 18275, process 87 finishes at the CPU
+At time 18275, process 87 arrives at the disk1 queue
+At time 18275, process 422 begins at the CPU
+At time 18284, process 942 arrives at the CPU queue
+At time 18295, process 943 arrives at the CPU queue
+At time 18299, process 422 finishes at the CPU
+At time 18299, process 422 arrives at the disk1 queue
+At time 18299, process 423 begins at the CPU
+At time 18321, process 944 arrives at the CPU queue
+At time 18325, process 423 finishes at the CPU
+At time 18325, process 423 exits the system
+At time 18325, process 115 begins at the CPU
+At time 18345, process 256 finishes at disk1
+At time 18345, process 257 begins at disk1
+At time 18346, process 945 arrives at the CPU queue
+At time 18358, process 115 finishes at the CPU
+At time 18358, process 115 arrives at the disk1 queue
+At time 18358, process 424 begins at the CPU
+At time 18367, process 946 arrives at the CPU queue
+At time 18389, process 947 arrives at the CPU queue
+At time 18398, process 424 finishes at the CPU
+At time 18398, process 424 arrives at the disk2 queue
+At time 18398, process 425 begins at the CPU
+At time 18404, process 948 arrives at the CPU queue
+At time 18420, process 949 arrives at the CPU queue
+At time 18426, process 425 finishes at the CPU
+At time 18426, process 425 arrives at the disk2 queue
+At time 18426, process 426 begins at the CPU
+At time 18436, process 950 arrives at the CPU queue
+At time 18438, process 188 finishes at disk2
+At time 18438, process 191 begins at disk2
+At time 18449, process 426 finishes at the CPU
+At time 18449, process 426 arrives at the disk1 queue
+At time 18449, process 427 begins at the CPU
+At time 18456, process 951 arrives at the CPU queue
+At time 18471, process 427 finishes at the CPU
+At time 18471, process 427 exits the system
+At time 18471, process 428 begins at the CPU
+At time 18472, process 257 finishes at disk1
+At time 18472, process 259 begins at disk1
+At time 18473, process 952 arrives at the CPU queue
+At time 18495, process 953 arrives at the CPU queue
+At time 18507, process 428 finishes at the CPU
+At time 18507, process 428 arrives at the disk1 queue
+At time 18507, process 429 begins at the CPU
+At time 18525, process 954 arrives at the CPU queue
+At time 18553, process 955 arrives at the CPU queue
+At time 18554, process 429 finishes at the CPU
+At time 18554, process 429 arrives at the disk2 queue
+At time 18554, process 430 begins at the CPU
+At time 18574, process 259 finishes at disk1
+At time 18574, process 260 begins at disk1
+At time 18581, process 956 arrives at the CPU queue
+At time 18595, process 430 finishes at the CPU
+At time 18595, process 430 arrives at the disk1 queue
+At time 18595, process 117 begins at the CPU
+At time 18600, process 957 arrives at the CPU queue
+At time 18617, process 117 finishes at the CPU
+At time 18617, process 117 arrives at the disk2 queue
+At time 18617, process 431 begins at the CPU
+At time 18627, process 958 arrives at the CPU queue
+At time 18648, process 959 arrives at the CPU queue
+At time 18664, process 431 finishes at the CPU
+At time 18664, process 431 arrives at the disk1 queue
+At time 18664, process 432 begins at the CPU
+At time 18670, process 960 arrives at the CPU queue
+At time 18683, process 961 arrives at the CPU queue
+At time 18702, process 260 finishes at disk1
+At time 18702, process 19 begins at disk1
+At time 18708, process 432 finishes at the CPU
+At time 18708, process 432 arrives at the disk1 queue
+At time 18708, process 433 begins at the CPU
+At time 18712, process 962 arrives at the CPU queue
+At time 18726, process 191 finishes at disk2
+At time 18726, process 192 begins at disk2
+At time 18732, process 963 arrives at the CPU queue
+At time 18733, process 433 finishes at the CPU
+At time 18733, process 433 arrives at the disk2 queue
+At time 18733, process 434 begins at the CPU
+At time 18742, process 964 arrives at the CPU queue
+At time 18765, process 965 arrives at the CPU queue
+At time 18771, process 434 finishes at the CPU
+At time 18771, process 434 exits the system
+At time 18771, process 435 begins at the CPU
+At time 18777, process 966 arrives at the CPU queue
+At time 18789, process 967 arrives at the CPU queue
+At time 18792, process 435 finishes at the CPU
+At time 18792, process 435 arrives at the disk2 queue
+At time 18792, process 436 begins at the CPU
+At time 18804, process 968 arrives at the CPU queue
+At time 18826, process 969 arrives at the CPU queue
+At time 18842, process 436 finishes at the CPU
+At time 18842, process 436 arrives at the disk1 queue
+At time 18842, process 118 begins at the CPU
+At time 18845, process 19 finishes at disk1
+At time 18845, process 970 arrives at the CPU queue
+At time 18845, process 264 begins at disk1
+At time 18858, process 971 arrives at the CPU queue
+At time 18871, process 972 arrives at the CPU queue
+At time 18892, process 118 finishes at the CPU
+At time 18892, process 973 arrives at the CPU queue
+At time 18892, process 118 arrives at the disk1 queue
+At time 18892, process 437 begins at the CPU
+At time 18914, process 437 finishes at the CPU
+At time 18914, process 437 arrives at the disk1 queue
+At time 18914, process 90 begins at the CPU
+At time 18919, process 974 arrives at the CPU queue
+At time 18935, process 975 arrives at the CPU queue
+At time 18936, process 90 finishes at the CPU
+At time 18936, process 90 arrives at the disk2 queue
+At time 18936, process 438 begins at the CPU
+At time 18955, process 976 arrives at the CPU queue
+At time 18969, process 264 finishes at disk1
+At time 18969, process 266 begins at disk1
+At time 18975, process 438 finishes at the CPU
+At time 18975, process 438 arrives at the disk1 queue
+At time 18975, process 439 begins at the CPU
+At time 18976, process 977 arrives at the CPU queue
+At time 18990, process 978 arrives at the CPU queue
+At time 18999, process 439 finishes at the CPU
+At time 18999, process 439 arrives at the disk2 queue
+At time 18999, process 440 begins at the CPU
+At time 19012, process 192 finishes at disk2
+At time 19012, process 194 begins at disk2
+At time 19016, process 979 arrives at the CPU queue
+At time 19033, process 980 arrives at the CPU queue
+At time 19044, process 440 finishes at the CPU
+At time 19044, process 440 arrives at the disk1 queue
+At time 19044, process 441 begins at the CPU
+At time 19061, process 981 arrives at the CPU queue
+At time 19071, process 982 arrives at the CPU queue
+At time 19073, process 266 finishes at disk1
+At time 19073, process 268 begins at disk1
+At time 19084, process 983 arrives at the CPU queue
+At time 19086, process 441 finishes at the CPU
+At time 19086, process 441 arrives at the disk1 queue
+At time 19086, process 442 begins at the CPU
+At time 19114, process 984 arrives at the CPU queue
+At time 19130, process 442 finishes at the CPU
+At time 19130, process 442 arrives at the disk2 queue
+At time 19130, process 121 begins at the CPU
+At time 19131, process 985 arrives at the CPU queue
+At time 19161, process 986 arrives at the CPU queue
+At time 19166, process 121 finishes at the CPU
+At time 19166, process 121 exits the system
+At time 19166, process 443 begins at the CPU
+At time 19189, process 987 arrives at the CPU queue
+At time 19190, process 443 finishes at the CPU
+At time 19190, process 443 arrives at the disk2 queue
+At time 19190, process 444 begins at the CPU
+At time 19203, process 988 arrives at the CPU queue
+At time 19210, process 444 finishes at the CPU
+At time 19210, process 444 arrives at the disk1 queue
+At time 19210, process 445 begins at the CPU
+At time 19219, process 268 finishes at disk1
+At time 19219, process 270 begins at disk1
+At time 19221, process 989 arrives at the CPU queue
+At time 19239, process 990 arrives at the CPU queue
+At time 19246, process 194 finishes at disk2
+At time 19246, process 198 begins at disk2
+At time 19250, process 445 finishes at the CPU
+At time 19250, process 991 arrives at the CPU queue
+At time 19250, process 445 arrives at the disk1 queue
+At time 19250, process 446 begins at the CPU
+At time 19275, process 992 arrives at the CPU queue
+At time 19291, process 446 finishes at the CPU
+At time 19291, process 446 arrives at the disk2 queue
+At time 19291, process 447 begins at the CPU
+At time 19292, process 993 arrives at the CPU queue
+At time 19305, process 994 arrives at the CPU queue
+At time 19320, process 995 arrives at the CPU queue
+At time 19339, process 447 finishes at the CPU
+At time 19339, process 447 arrives at the disk1 queue
+At time 19339, process 122 begins at the CPU
+At time 19340, process 996 arrives at the CPU queue
+At time 19351, process 997 arrives at the CPU queue
+At time 19353, process 270 finishes at disk1
+At time 19353, process 271 begins at disk1
+At time 19370, process 998 arrives at the CPU queue
+At time 19374, process 122 finishes at the CPU
+At time 19374, process 122 arrives at the disk2 queue
+At time 19374, process 24 begins at the CPU
+At time 19383, process 999 arrives at the CPU queue
+At time 19405, process 1000 arrives at the CPU queue
+At time 19406, process 24 finishes at the CPU
+At time 19406, process 24 arrives at the disk1 queue
+At time 19406, process 448 begins at the CPU
+At time 19430, process 1001 arrives at the CPU queue
+At time 19432, process 448 finishes at the CPU
+At time 19432, process 448 exits the system
+At time 19432, process 449 begins at the CPU
+At time 19455, process 1002 arrives at the CPU queue
+At time 19460, process 449 finishes at the CPU
+At time 19460, process 449 exits the system
+At time 19460, process 450 begins at the CPU
+At time 19477, process 271 finishes at disk1
+At time 19477, process 75 begins at disk1
+At time 19480, process 450 finishes at the CPU
+At time 19480, process 450 arrives at the disk1 queue
+At time 19480, process 451 begins at the CPU
+At time 19481, process 1003 arrives at the CPU queue
+At time 19501, process 1004 arrives at the CPU queue
+At time 19517, process 451 finishes at the CPU
+At time 19517, process 451 arrives at the disk2 queue
+At time 19517, process 452 begins at the CPU
+At time 19519, process 198 finishes at disk2
+At time 19519, process 57 begins at disk2
+At time 19528, process 1005 arrives at the CPU queue
+At time 19542, process 1006 arrives at the CPU queue
+At time 19548, process 452 finishes at the CPU
+At time 19548, process 452 arrives at the disk1 queue
+At time 19548, process 453 begins at the CPU
+At time 19564, process 1007 arrives at the CPU queue
+At time 19582, process 453 finishes at the CPU
+At time 19582, process 453 arrives at the disk2 queue
+At time 19582, process 454 begins at the CPU
+At time 19591, process 1008 arrives at the CPU queue
+At time 19615, process 454 finishes at the CPU
+At time 19615, process 454 exits the system
+At time 19615, process 455 begins at the CPU
+At time 19619, process 1009 arrives at the CPU queue
+At time 19626, process 75 finishes at disk1
+At time 19626, process 275 begins at disk1
+At time 19643, process 1010 arrives at the CPU queue
+At time 19654, process 455 finishes at the CPU
+At time 19654, process 455 exits the system
+At time 19654, process 456 begins at the CPU
+At time 19671, process 1011 arrives at the CPU queue
+At time 19681, process 1012 arrives at the CPU queue
+At time 19691, process 456 finishes at the CPU
+At time 19691, process 456 arrives at the disk1 queue
+At time 19691, process 8 begins at the CPU
+At time 19696, process 1013 arrives at the CPU queue
+At time 19721, process 1014 arrives at the CPU queue
+At time 19734, process 8 finishes at the CPU
+At time 19734, process 8 exits the system
+At time 19734, process 457 begins at the CPU
+At time 19740, process 275 finishes at disk1
+At time 19740, process 276 begins at disk1
+At time 19745, process 1015 arrives at the CPU queue
+At time 19755, process 457 finishes at the CPU
+At time 19755, process 457 arrives at the disk1 queue
+At time 19755, process 458 begins at the CPU
+At time 19765, process 57 finishes at disk2
+At time 19765, process 204 begins at disk2
+At time 19771, process 1016 arrives at the CPU queue
+At time 19786, process 1017 arrives at the CPU queue
+At time 19801, process 1018 arrives at the CPU queue
+At time 19804, process 458 finishes at the CPU
+At time 19804, process 458 arrives at the disk2 queue
+At time 19804, process 459 begins at the CPU
+At time 19821, process 1019 arrives at the CPU queue
+At time 19826, process 459 finishes at the CPU
+At time 19826, process 459 exits the system
+At time 19826, process 460 begins at the CPU
+At time 19847, process 460 finishes at the CPU
+At time 19847, process 460 arrives at the disk2 queue
+At time 19847, process 461 begins at the CPU
+At time 19849, process 1020 arrives at the CPU queue
+At time 19854, process 276 finishes at disk1
+At time 19854, process 278 begins at disk1
+At time 19868, process 1021 arrives at the CPU queue
+At time 19871, process 461 finishes at the CPU
+At time 19871, process 461 arrives at the disk1 queue
+At time 19871, process 462 begins at the CPU
+At time 19878, process 1022 arrives at the CPU queue
+At time 19889, process 1023 arrives at the CPU queue
+At time 19905, process 1024 arrives at the CPU queue
+At time 19919, process 1025 arrives at the CPU queue
+At time 19920, process 462 finishes at the CPU
+At time 19920, process 462 arrives at the disk1 queue
+At time 19920, process 463 begins at the CPU
+At time 19929, process 1026 arrives at the CPU queue
+At time 19939, process 1027 arrives at the CPU queue
+At time 19948, process 463 finishes at the CPU
+At time 19948, process 463 exits the system
+At time 19948, process 124 begins at the CPU
+At time 19966, process 1028 arrives at the CPU queue
+At time 19981, process 278 finishes at disk1
+At time 19981, process 282 begins at disk1
+At time 19986, process 124 finishes at the CPU
+At time 19986, process 124 arrives at the disk1 queue
+At time 19986, process 464 begins at the CPU
+At time 19987, process 1029 arrives at the CPU queue
+At time 20000, process -1 terminates the simulation
