@@ -79,7 +79,7 @@ void cpuFinishHandler(NODE* *EVENT_Qptr, EVENT* thisEvent, NODE* *DISK1_Qptr, NO
         thisEvent -> type = PROCESS_EXIT;
     } else {
         //if process stays in simulation, enters shorter disk queue
-        //if equal randomally chooses a disk
+        //if equal randomly chooses a disk
         int diskQrandNum = randomNumberBetween (1,10);
         if (queueLength(DISK1_Qptr) == queueLength(DISK2_Qptr)) {
             if (diskQrandNum <= 5) {
