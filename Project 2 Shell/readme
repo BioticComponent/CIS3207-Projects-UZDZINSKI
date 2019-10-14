@@ -1,0 +1,64 @@
+JoeUzdzinski MyShell help
+
+This is a basic shell which has a few internal command implementations, the ability
+to run external commands with program invocation, and a few special operations.
+
+Shell run settings:
+-run './main' to run the shell in a user setting
+    -the user setting will print a prompt, this is where you enter a command.
+-run './main batchfile' to run the shell with a batchfile
+    -the batch setting will automatically run through the commands listed in the file
+    -batchfile can be named anything you want
+
+Available internal commands:
+- cd <dir> 
+    - changes directory to <dir>
+    - <dir> must be provided
+- dir <dir>
+    - prints contents of <dir>
+    - if <dir> argument is not provided, will print content of current directory
+- echo <comment>
+    - prints <comment> back to the screen
+- clr
+    - clears the terminal screen and ask for new prompt
+- pause 
+    - pauses the shell, waits for 'enter' press to resume
+- environ
+    - prints the current directory and shell executatble location directory
+- exit
+    - terminates shell
+- quit
+    - terminates shell
+- help
+    - prints this readme
+
+External commands:
+-External commands (such as wc and ls and many others) can be ran via program invocation
+
+Special operations:
+- input redirection
+    - <command> < <file>
+    - the input of <command> will be redirected from stdin to <file>
+- output truncate redirection
+    - <command> > <file>
+    - the output of <command> will be redirected from stdout to <file>
+    - <file> will be created if it does not exist, truncated if it does
+- output append redirection
+    - <command> >> <file>
+    - the output of <command> will be redirected from stdout to <file>
+    - <file> will be created if it does not exist, appended to if it does
+- input/output dual redirection
+    - <command> < <infile> > <outfile>
+    - the input of <command> will be redirected from stdin to <infile>
+    - the output of <command> will be redirected from stdout to <outfile>
+    - <outfile> will be created if it does not exist, truncated if it does
+- piping
+    - <command> | <command2>
+    - the output of <command> will be redirected from stdout to the entrance of the pipe
+    - the input of <command2> weil be redirected from stdin to the exit of the pipe
+    - <commmand>'s ouput becomes <command2>'s input
+- background execution
+    - <command> &
+    - <command> will be run in the background, the next prompt will not wait for it to be finished
+    - when background process does finish, it will print to the screen and remove the prompt, just enter your next command as if the prompt was still there
+
