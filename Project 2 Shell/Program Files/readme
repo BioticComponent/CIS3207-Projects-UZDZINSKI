@@ -4,9 +4,9 @@ This is a basic shell which has a few internal command implementations, the abil
 to run external commands with program invocation, and a few special operations.
 
 Shell run settings:
--run './main' to run the shell in a user setting
+-run './myshell' to run the shell in a user setting
     -the user setting will print a prompt, this is where you enter a command.
--run './main batchfile' to run the shell with a batchfile
+-run './myshell batchfile' to run the shell with a batchfile
     -the batch setting will automatically run through the commands listed in the file
     -batchfile can be named anything you want
 
