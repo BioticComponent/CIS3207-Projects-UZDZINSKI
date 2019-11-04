@@ -1,4 +1,4 @@
-#include "simpleServer.h"
+#include "structs.h"
 //Copied from the Computer Systems textbook.
 //This function creates a socket descriptor, and binds
 //the socket descriptor the specified port.
