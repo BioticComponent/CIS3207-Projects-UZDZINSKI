@@ -1,5 +1,6 @@
+//joe uzdzinski
 
-#include "structs.h"
+#include "utility.h"
 
 
 //ENQUEUE FUNCTION
@@ -30,19 +31,18 @@ void enq_J (JN* *startPtr, int _sd) {
     currentPtr -> nextPtr = newPtr;
 }
 
-//DEQUEUE FUNCTION
-//removes the first in element
+//JOB DEQUEUE FUNCTION
+//removes the first element
 //takes a pointer to startPtr of queue
-//returns a pointer to the event that was in the removed element
+//returns socket decriptor
 int deq_J (JN* *startPtr) {
     
+    //hold socket desciptor
+    int sd; 
+
     //creating a currentPtr to work on instead of startPtr
     JN* currentPtr = *startPtr;
     
-    //creating a temporary pointer to hold the event in the first element
-    // EVENT* tempPtr = NULL;
-    int sd;
-
     //checking queue for empty
     if (currentPtr == NULL || currentPtr -> nextPtr == NULL) {
         sd = -1;
@@ -58,7 +58,7 @@ int deq_J (JN* *startPtr) {
     return sd;
 }
 
-//PRINT THE QUEUE
+//PRINT THE JOB QUEUE
 //takes a pointer to the startPtr of the queue
 void printq_J (JN* *startPtr) {
     
@@ -71,7 +71,7 @@ void printq_J (JN* *startPtr) {
         return;
     }
     
-    //counter is created to avoid segfault with trying to access startPtr's event (which doesnt exist)
+    //counter is created to avoid segfault with trying to access startPtr's sd (which doesnt exist)
     int counter = 0;
     while (currentPtr != NULL) {
         if (counter > 0) {
@@ -84,7 +84,7 @@ void printq_J (JN* *startPtr) {
     printf("NULL\n");
 }
 
-//LENGTH OF QUEUE FUNCTION
+//LENGTH OF JOB QUEUE FUNCTION
 int qlength_J (JN* *startPtr) {
     
     //creating a currentPtr to work on instead of startPtr
@@ -109,7 +109,7 @@ int qlength_J (JN* *startPtr) {
 
 //LOG ENQUEUE FUNCTION
 //takes a pointer to the startPtr, an event pointer, and type of queue
-void enq_L (LN* *startPtr, char _log[100]) {
+void enq_L (LN* *startPtr, char* _log) {
     
     //allocating memory for newPtr
     LN* newPtr = malloc(sizeof(LN));
@@ -136,17 +136,15 @@ void enq_L (LN* *startPtr, char _log[100]) {
 }
 
 //LOG DEQUEUE FUNCTION
-//removes the first in element
+//removes the first element
 //takes a pointer to startPtr of queue
-//returns a pointer to the event that was in the removed element
+//returns the log message stored in the first element
 char* deq_L (LN* *startPtr) {
     
     //creating a currentPtr to work on instead of startPtr
-    // LN* currentPtr = malloc(sizeof(startPtr));
     LN* currentPtr = *startPtr;
     
-    //creating a temporary pointer to hold the event in the first element
-    // EVENT* tempPtr = NULL;
+    //_log holds the log message that will be returned
     char* _log = malloc(sizeof(char)*100);
 
     //checking queue for empty
@@ -154,17 +152,16 @@ char* deq_L (LN* *startPtr) {
         _log = "queue empty";
     } else { 
         _log = (currentPtr -> nextPtr -> log);
-        // sd = currentPtr -> nextPtr -> sd;
 
         //pointing startPtr to the next element in the queue
         *startPtr = currentPtr -> nextPtr;
         
     }
-    //return socket descriptor
+    //return log message
     return _log;
 }
 
-//PRINT THE QUEUE
+//PRINT THE LOG QUEUE
 //takes a pointer to the startPtr of the queue
 void printq_L (LN* *startPtr) {
     
@@ -177,7 +174,7 @@ void printq_L (LN* *startPtr) {
         return;
     }
     
-    //counter is created to avoid segfault with trying to access startPtr's event (which doesnt exist)
+    //counter is created to avoid segfault with trying to access startPtr's log (which doesnt exist)
     int counter = 0;
     while (currentPtr != NULL) {
         if (counter > 0) {
@@ -190,7 +187,7 @@ void printq_L (LN* *startPtr) {
     printf("NULL\n");
 }
 
-//LENGTH OF QUEUE FUNCTION
+//LENGTH OF LOG QUEUE FUNCTION
 int qlength_L (LN* *startPtr) {
     
     //creating a currentPtr to work on instead of startPtr

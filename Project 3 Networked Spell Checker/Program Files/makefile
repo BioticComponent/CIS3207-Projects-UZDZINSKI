@@ -1,2 +1,2 @@
-main: main.c queue.c workerThreadRoutine.c open_listenfd.c
-	gcc -Wall main.c queue.c workerThreadRoutine.c open_listenfd.c -o main -pthread
+main: main.c queue.c threadRoutines.c open_listenfd.c
+	gcc main.c queue.c threadRoutines.c open_listenfd.c -o main -pthread

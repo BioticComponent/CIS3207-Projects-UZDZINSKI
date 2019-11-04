@@ -1,25 +1,22 @@
+//joe uzdzinski
 
-#include "structs.h"
+#include "utility.h"
 
+#define DEF_DICT "words.txt"    //default dictionary
+#define DEF_PORT 3000          //default port
+#define NUM_WORKERS 1         //number of workers
 
-#define DEF_DICT "words.txt"  //default dictionary
-#define DEF_PORT 2000
-#define Q_MAX 5
-
-
-FILE* DICT;
-int PORT;
 
 int main(int argc, char **argv) {
-    printf("HELLO\n");
     //setup port and dictionary
+    int PORT;
     if (argc == 1) { //no args, make defaults
         PORT = DEF_PORT;
         if (!(DICT = fopen(DEF_DICT, "r"))) {
             printf("dictionary error\n");
             return 0;
         }
-    } else if (argc == 2) { //1 arg, did they pass a port or dict?
+    } else if (argc == 2) { //1 additional arg, did they pass a port or dict?
         PORT = atoi(argv[1]); //assume port
         if (PORT < 1024 || PORT > 65535) { //port out of range? assume dict
             if (!(DICT = fopen(argv[1], "r"))) {
@@ -28,7 +25,7 @@ int main(int argc, char **argv) {
             }
             PORT = DEF_PORT; //dictionary worked, set port to default
         }
-    } else if (argc == 3) { //2 args, passed port and dictionary
+    } else if (argc == 3) { //2 additional args, passed port and dictionary
         PORT = atoi(argv[1]);
         if (PORT < 1024 || PORT > 65535) { //if true, port out of range
             printf("port not in range (1024,65535)\n");
@@ -40,6 +37,12 @@ int main(int argc, char **argv) {
         }
     } else { //more than 2 arguments
         printf("too many arguments\n");
+        return 0;
+    }
+
+    //setup log file
+    if (!(LOG = fopen("log.txt", "w"))) {
+        printf("log file error\n");
         return 0;
     }
 
@@ -61,46 +64,62 @@ int main(int argc, char **argv) {
         printf("memory allocaton failure\n");
         return 0;
     }
+    //check for lock or cv init failure
     if ( (pthread_mutex_init(&SVR -> job_mutex, NULL)) || (pthread_mutex_init(&SVR -> log_mutex, NULL)) || (pthread_cond_init(&SVR->jobCV_notEmpty, NULL)) || (pthread_cond_init(&SVR->jobCV_notFull, NULL)) || (pthread_cond_init(&SVR->logCV_notEmpty, NULL)) || (pthread_cond_init(&SVR->logCV_notFull, NULL)) ) {
         printf("lock or cv initialization failure\n");
         return 0;
     }
 
     //setup worker threads
-    pthread_t workers[Q_MAX];
-    for (int i = 0; i < Q_MAX; i++) {
+    pthread_t workers[NUM_WORKERS];
+    for (int i = 0; i < NUM_WORKERS; i++) {
         pthread_create(&workers[i], NULL, workerThreadRoutine, (void*) SVR);
     }
 
-    int clientSocket;
-    // struct sockaddr_in client;
-	// int clientLen = sizeof(client);
-    char* clientMessage = "Hello! I hope you can see this.\n";
-	char* msgRequest = "Send me some text and I'll respond with something interesting!\nSend the escape key to close the connection.\n";
+    //setup logger thread
+    pthread_t logger;
+    pthread_create(&logger, NULL, loggerThreadRoutine, (void*) SVR);
 
+    //set up client socket
+    int clientSocket;
+    struct sockaddr_in client;
+	int clientLen = sizeof(client);
+    //client welcome message
+    char* clientMessage = "Welcome to the spell checker.\nInput a word at the prompt (\">>>\") to see if you spelled it correctly.\nEnter the esc key at the prompt to exit.\nIf the prompt does not show, you must wait for an open connection.\n";
+    
     while (1) {
-        if((clientSocket = accept(connectionSocket, NULL, NULL)) == -1){
+        //accept connection
+        if((clientSocket = accept(connectionSocket, (struct sockaddr*)&client, &clientLen)) == -1){
             printf("Error connecting to client.\n");
             return 0;
 	    }
-        printf("client connected\n");
+        printf("connection successful with socket descriptor %d\n", clientSocket);
 
+        //send client welcome message
         send(clientSocket, clientMessage, strlen(clientMessage), 0);
-	    send(clientSocket, msgRequest, strlen(msgRequest), 0);
 
+        //lock access to the job queue
         pthread_mutex_lock(&SVR -> job_mutex);
 
-        while (qlength_J(&SVR -> job_Qptr) == Q_MAX) {
+        //wait while the job queue is full
+        while (qlength_J(&SVR -> job_Qptr) >= Q_MAX) {
             pthread_cond_wait(&SVR -> jobCV_notFull, &SVR -> job_mutex);
         }
 
+        //put the accepted client socket into the job queue so a worker can attend to it
         putClient(SVR, clientSocket);
 
+        // DEBUG
+        // printq_J(&SVR -> job_Qptr);
+
+        //signal to workers that the queue is not empty
         pthread_cond_signal(&SVR -> jobCV_notEmpty);
 
+        //unlock access to the job queue
         pthread_mutex_unlock(&SVR -> job_mutex);
     }
 
+    // DEBUG
     // printf("%d\n", deq_J(&SVR->job_Qptr));
     // enq_J(&SVR->job_Qptr, 1);
     // enq_J(&SVR->job_Qptr, 2);
@@ -108,7 +127,6 @@ int main(int argc, char **argv) {
     // printf("%d\n", qlength_J(&SVR->job_Qptr));
     // printf("%d\n", deq_J(&SVR->job_Qptr));
     // printq_J(&SVR->job_Qptr);
-
     // printf("%s\n", deq_L(&SVR->log_Qptr));
     // enq_L(&SVR->log_Qptr, "hello");
     // enq_L(&SVR->log_Qptr, "goodbye");
@@ -118,5 +136,8 @@ int main(int argc, char **argv) {
     // printf("%s\n", log);
     // printq_L(&SVR->log_Qptr);
 
+    close(connectionSocket);
+    fclose(DICT);
+    fclose(LOG);
     return 0;
 }
