@@ -4,7 +4,7 @@
 
 #define DEF_DICT "words.txt"    //default dictionary
 #define DEF_PORT 3000          //default port
-#define NUM_WORKERS 1         //number of workers
+#define NUM_WORKERS 3         //number of workers
 
 
 int main(int argc, char **argv) {
